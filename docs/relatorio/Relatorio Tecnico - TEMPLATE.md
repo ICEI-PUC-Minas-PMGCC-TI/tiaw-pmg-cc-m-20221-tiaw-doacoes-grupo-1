@@ -135,7 +135,7 @@ As populações expostas à desastres naturais, principalmente as minorias e a p
 
 O público-alvo para este projeto é composto por uma fatia demográfica da população brasileira disposta a realizar doações financeiras ou materiais para instituições públicas, religiosas ou privadas que estejam orquestrando campanhas de doações para vítimas de desastres naturais no Brasil. Dessa forma como características para o nosso público-alvo temos: 
 
-1.	Idade: Pessoas maiores de 18 anos.
+1.  Idade: Pessoas maiores de 18 anos.
 2.	Sexo (biológico): homens e mulheres.
 3.	Poder aquisitivo/classe social: classe média baixa, classe média alta e pessoas com alto poder aquisitivo.
 4.	Nacionalidade: brasileiros.
@@ -376,6 +376,7 @@ A tabela subsequente contempla as principais plataformas que serão utilizadas p
 |Desenvolvimento dos Slides | Microsoft Office | https://www.microsoft.com/pt-br/microsoft-365/microsoft-office?rtc=1 | 
 |Consulta de Informações | w3schools | https://www.w3schools.com/ | 
 |Consulta de Informações | M mdn - mozilla | https://developer.mozilla.org/pt-BR/ | 
+|Comunicação | Discord | https://discord.gg/6HQdRebb23 |
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
@@ -547,7 +548,7 @@ A tabela subsequente contempla as principais plataformas que serão utilizadas p
 16. BENEVOLENZA, M. A.; DERIGNE, L. The impact of climate change and natural
 disasters on vulnerable populations: A systematic review of literature. Journal of Human Behavior in the Social Environment, v. 29, n. 2, p. 266-281, out. 2018.
 
-
+17. 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
 > 
