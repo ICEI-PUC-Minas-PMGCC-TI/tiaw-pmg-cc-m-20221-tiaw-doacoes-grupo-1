@@ -548,7 +548,10 @@ A tabela subsequente contempla as principais plataformas que serão utilizadas p
 16. BENEVOLENZA, M. A.; DERIGNE, L. The impact of climate change and natural
 disasters on vulnerable populations: A systematic review of literature. Journal of Human Behavior in the Social Environment, v. 29, n. 2, p. 266-281, out. 2018.
 
-17. 
+17. MDN Web Docs. Disponível em: https://developer.mozilla.org/pt-BR/.
+
+‌18. W3SCHOOLS. W3Schools Online Web Tutorials. Disponível em: https://www.w3schools.com/.
+
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
 > 
