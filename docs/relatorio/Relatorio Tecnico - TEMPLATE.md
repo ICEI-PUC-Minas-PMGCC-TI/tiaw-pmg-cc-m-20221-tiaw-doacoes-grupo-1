@@ -253,13 +253,14 @@ Dona Flora está habituada a utilizar seu aparelho celular e ler jornais. Em seu
 
 #### Mapa de Empatia.
 
-1. O que ela pensa e sente: -------------------
+1. O que ela pensa e sente: Sente que não tem muito tempo a perder devido a idade avançada por isso se preocupa em adquirir uma moradia própria para não
+se preocupar mais com o aluguel no final do mês sua maior inspiração é sua irmã, que conseguiu adquirir sua casa própria e ter estabilidade financeira aos 50 anos.
 
-2. O que ela vê: -------------------
+2. O que ela vê: Vê que sua luta é bem parecida com a luta dos seus amigos e familiares, todos buscam ter ao menos o básico de forma que não precisem se preocupar com moradia e locomoção. O mercado oferece algumas oportunidades para que a realização desses desejos sejam alcançados porém são poucas e raramente conquistadas por alguém sem estudo como Flora.
 
-3. O que ela diz e faz: -------------------
+3. O que ela diz e faz: Diz que é grata pela vida que tem mesmo trabalhando muito e bem comportada e humilde, sempre correndo mas muito atenciosa. Flora tem 1,50 de altura, e magra, tem cabelo curto e ondulado, e parda e usa óculos.
 
-4. O que ela ouve: -------------------
+4. O que ela ouve: Os amigos dizem que esta cada vez mais difícil conquistas as coisas mas acredita que vai melhorar com novos governantes na politica. Ouve muito sobre empatia, pois em seu meio isto e comum no dia a dia, principalmente diante de tantas dificuldades. O chefe diz que ela e esforçada e trabalhadora mas que deveria fazer cursos de atualização para ter mais oportunidades em sua empresa.
 
 
 
