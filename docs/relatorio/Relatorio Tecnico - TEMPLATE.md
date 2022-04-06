@@ -162,6 +162,9 @@ O público-alvo selecionado para o projeto será melhor avaliado durante o proce
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
+
+- O projeto conta com entendimento das dúvidas, certezas e suposições a respeito do problema enfrentado, mapeamento das principais pessoas envoltas do problema, perfis fictícios do cliente ideal, um mapeamento desses perfis, algumas ideias abordadas para a resolução do projeto e uma entrevista com pessoas reais que deram a base para a criação dos perfis de clientes. As técnicas utilizadas para estes itens foram uma Matriz de alinhamento CSD, Mapa de Stakeholders, Personas (com detalhamento de Objetos e Lugares, Objetivos Chave e Como devemos tratá-la), Mapa de Empatia, BrainStorming de ideias, Mural de Possibilidades, Priorização de Ideias, Detalhamento das Ideias, Entrevista Qualitativa e Hightlights de pesquisa, respectivamente.
+
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
 > realizar a especificações do projeto
@@ -169,6 +172,95 @@ O público-alvo selecionado para o projeto será melhor avaliado durante o proce
 ## Personas e Mapas de Empatia
 
 ......  COLOQUE AQUI O SEU TEXTO ......
+
+### Persona - Mateus Lourenço Silva
+
+Por trabalhar com Engenharia de Produção, Mateus está habituado a usar seu notebook e seu celular. Durande o dia a dia, em seu ambiente de trabalho, ele utiliza frequentemente ambos os aparelhos. Além disso, para lazer, Mateus costuma chegar em casa e utilizar seu telefone para acessar conteudos recreativos.
+
+1. Idade: 35.
+
+2. Hobby: Trabalhos voluntário, ler, cozinhar, andar de blicicleta.
+
+3. Trabalho: Engenharia de Produção.
+
+4. Personalidade: Humilde, caridoso, calmo e
+organizado.
+
+5. Sonhos: Tem um sonho desde novo em
+abrir um restaurante.
+
+#### Objetos e Lugares: Os principais objetivos de Mateus durante a utilização do serviço é realizar generosas doações para individuos necessitados e acompanhar casos de desastres recentes. O serviço oferece exatamente o que Mateus procura, dando liberdade para o mesmo realizar suas doações.
+
+#### Objetivos Chave: Mateus se sente bem quando vê resultados dos seus investimentos, mostrando imagens e dados que comprovem que seus investimentos conseguiram transformar a vida das pessoas.
+
+#### Mapa de Empatia.
+
+1. O que ele pensa e sente: Tende a confiar demais nos outros. Se sente pressionado a continuar no emprego em que está ao invés de seguir carreira administrativa e culinária. Tem medo de morrer sem ter feito a diferença no mundo e sonha demais, pensando se tudo o que ele faz pelos outros não é em vão. Anseia viver uma vida feliz e trabalhar com o que gosta. espera doar comida se abrir um restaurante.
+
+2. O que ele vê: Seus pais são muito presentes na vida dele mesmo já sendo independente a anos.  Ele tem muitos amigos, mas nenhum realmente próximo ao qual confia seus maiores segredos ou que pode contar a qualquer momento. A área na qual ele atua em seu emprego é muito boa e o salário é estável. A Engenharia de Produção tem ganhado espaço no mercado e mais oportunidades surgem para ele.
+
+3. O que ele diz e faz: Ele faz trabalho voluntário, gosta de fazer doações mensais para instituições de ajuda aos necessitados, anda de bicicleta, ama cozinhar e quer abrir um restaurante. Gasta mais dinheiro com outras pessoas do que com si mesmo. Seu comportamento em frente aos outros é calmo, humilde, conformado e caridoso, tentando nunca levantar a voz. Sua aparência é simples, cabelo curto, estatura média, veste roupa social, passa um perfume suave e quando vai andar de bicicleta utiliza os equipamentos e as roupas recomendadas para tal.
+
+4. O que ele ouve: Seus amigos dizem que ele se preocupa demais com a vida dos outros e se preocupa demais com a opinião que seus pais tem sobre suas decisões. Seu chefe acredita que ele ainda teria uma carreira de grande sucesso na área atual e o incentiva a não largar o emprego.
+
+
+### Persona - Samuel Silveira da Silva
+
+Samuel está habituado a utilizar seu celular em seus intervalos de trabalho. O mesmo, durante seu tempo livre, tem o costume de ler livros e jornais impressos, com o intuito de se informar sobre as atualidades e novas tendencias tecnológicas. Em casa, está habituado a assistir televisão.
+
+1. Idade: 33.
+
+2. Hobby: Cuidar de sua horta pessoal e ir a restaurantes com sua esposa.
+
+3. Trabalho: Cirurgião Geral.
+
+4. Personalidade: Gentil, atencioso, extrovertido e calmo.
+
+5. Sonhos: Sonha com um mundo justo.
+
+#### Objetos e Lugares: Samuel busca realizar doações de maneira rápida e facil, tendo várias opções de instituições para doar e diversas causas de desastres naturais. O serviço se adequa a ele pois é agil e intuitivo, tornando a experiencia de usuário agradavel e eficiente.
+
+#### Objetivos Chave: Samuel se sente bem quando lê depoimento de pessoas que foram ajudadas pelas doações dentro do site. Gosta quando são educados com ele e quando  mostram empatia.
+
+#### Mapa de Empatia.
+
+1. O que ele pensa e sente: Samuel se importa muito com o que os outros pensam dele, assim se sentindo pressionado a ajudar os próximos, muitas vezes em formas de doações. Anseia por um mundo melhor e se inspira em grandes figuras de paz e pessoas que lutaram pela paz no mundo como, Gandhi e Martin Luther King.
+
+2. O que ele vê: Por causa da sua natureza extremamente extrovertida, Samuel formou muitos amigos, porém nenhum deles é muito próximo. No seu ambiente, ele enxerga uma dificuldade no momento de realizar suas doações e não encontra meios para facilitar essa tarefa.
+
+3. O que ele diz e faz: Em público Samuel é gentil e extrovertido e adora ser o centro das atenções, tentando garantir que todos gostem dele. Quando se trata de aparência ele se veste coerentemente a alguém de sua classe social (alta).
+
+4. O que ele ouve: Seus amigos o consideram uma das pessoas mais caridosas e bondosas que eles conhecem, já o seu chefe além de concordar com as afirmações anteriores o considera extremamente prestativo e um ótimo profissional.
+
+
+### Persona - Flora Alves Conceição
+
+Dona Flora está habituada a utilizar seu aparelho celular e ler jornais. Em seu tempo livre, gosta de ler noticias nos jornais e compartilha-las em seu aparelho celular.
+
+1. Idade: 53.
+
+2. Hobby: Costura panos de prato e toalhas de mesa como hobby e fonte de renda extra.
+
+3. Trabalho: Servidora pública.
+
+4. Personalidade: Forte, caridosa, humilde e batalhadora.
+
+5. Sonhos: Sonha em ter sua casa propria e dar um bom futuro para seus netos.
+
+#### Objetos e Lugares: Dona Flora busca poder ajudar as pessoas que foram vitimas de desastres naturais, ja que quando era menor, a mesma foi vitima de inumeras chuvas que acarretaram na perda de sua moradia e bens. Com o serviço, ela pode ajudar pessoas ao redor de todo o país utilizando apenas seu aparelho celular.
+
+#### Objetivos Chave: Dona Flora se sente bem quando consegue conversar e ouvir as experiencias das pessoas que foram vitimas de desastres e saber que com o que ela está doando, pode fazer a diferença.
+
+#### Mapa de Empatia.
+
+1. O que ela pensa e sente: -------------------
+
+2. O que ela vê: -------------------
+
+3. O que ela diz e faz: -------------------
+
+4. O que ela ouve: -------------------
+
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
@@ -200,8 +292,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema | Doações de forma rápida e fácil | Ter uma experiência intuitiva e eficiente com o serviço |
+|Usuário do sistema | Acompanhar casos de desastres recentes | Fazer doações para pessoas mais necessitadas |
+|Usuário do sistema | Fazer doações de forma simples pelo celular | Ter acessibilidade ao serviço |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -222,16 +315,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário faça cadastro e login no site | ALTA | 
+|RF-002| Permitir ao usuário identificar as campanhas mais prioritárias | Alta |
+|RF-003| Permitir ao usuário identificar as campanhas que mais atendem seus interesses | Média |
+|RF-004| A home deve apresentar informações sobre a importância das doações e sobre como e para quem realizar doações. | Alta |
+|RF-005| Usuários cadastrados poderão acumular pontos ao acessar páginas sobre campanhas de doações ou ao compartilhar campanhas de doações nas redes sociais | Baixa |
+|RF-006| O site deve fornecer informações relevantes sobre os riscos de desastres naturais em sua região | Média |
+|RF-007| Deverá fornecer informações sobre como ajudar pessoas passando por necessidade devido a algum evento climático desastroso | Média |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivo móvel | Alta | 
+|RNF-002| O site deverá ter um banco de dados para suportar o cadastro de possíveis usuários | Alta | 
+|RNF-003| O site deverá ter um sistema que atualiza as campanhas de doação com base nos sites oficiais das instituições | Baixa |
+|RNF-004| O site deverá ter um sistema e/ou Cookies que rastreeiem quando o usuário acessar páginas sobre campanhas de doações ou ao compartilhar campanhas de doações nas redes sociais para que os pontos sejam acumulados | Baixa |
+|RNF-005| Deverá ter um sistema que identifique a localização do usuário no mapa para fornecer informações sobre desastres na região do mesmo | Média |
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
