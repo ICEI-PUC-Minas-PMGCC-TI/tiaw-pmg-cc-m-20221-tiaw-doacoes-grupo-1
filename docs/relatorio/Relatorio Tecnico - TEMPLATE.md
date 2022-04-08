@@ -453,14 +453,21 @@ A pesquisa bibliográfica inicial levantou 10 artigos principais até o momento,
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Scrum Master
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+*Bruno Santiago de Oliveira
 
+### Product Owner
+
+*Professores
+
+### Equipe de Desenvolvimento
+
+*Fernando Campos Silva Dal´Maria
+*Gabriel Frederico Vieira Silva
+*João Víctor de Barros Scarmato Reis
+*Larissa de Castro Reis e Silva
+*Rafael Fleury Barcellos Ceolin de Oliveira
 
 ## Ferramentas
 
@@ -468,9 +475,9 @@ A tabela subsequente contempla as principais plataformas que serão utilizadas p
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOFDWTFQ=/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1 | 
+|Hospedagem do site | Github Pages |  https://icei-puc-minas-pmgcc-ti.github.io/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1/codigo/ | 
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
 |Paleta de Cores | Adobe Color | https://color.adobe.com/pt/create/color-wheel | 
 |Editor de Código| Visual Studio Code | https://code.visualstudio.com/ | 
@@ -480,28 +487,6 @@ A tabela subsequente contempla as principais plataformas que serão utilizadas p
 |Consulta de Informações | M mdn - mozilla | https://developer.mozilla.org/pt-BR/ | 
 |Comunicação | Discord | https://discord.gg/6HQdRebb23 |
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -529,7 +514,7 @@ etiquetas:
 
 ## Hospedagem
 
-O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integração o GitHub, a ferramenta de hospedagem de repositórios utilizada pelo projeto. 
+O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integração o GitHub, a ferramenta de hospedagem de repositórios utilizada pelo projeto.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
