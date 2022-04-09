@@ -435,7 +435,7 @@ Como critérios de exclusão temos: (1) artigos publicados antes de 2017, public
 
 A pesquisa bibliográfica inicial levantou 10 artigos principais até o momento, todos voltados para problemas climáticos, aquecimento global, desastres naturais no Brasil e/ou impactos das mudanças climáticas para sociedade e para o estado. Além desses textos, 4 reportagens foram selecionadas no portal G1 da globo.com para auxiliar na exemplificação do problema e dos impactos dos desastres naturais no Brasil. Por fim, 2 referências complementares foram adicionadas para aprofundar os temas contemplados neste arquivo.
 
-A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmico e mantém registros de todas as etapas. Dessa forma, os integrantes dos grupos sabem o que precisa ser feito, o que está sendo feito, os artefatos em teste e o que já foi concluído. Além disso, essa técnica permite uma melhor adequação a mudanças rápidas de curso do projeto, seguindo o método ágil
+A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmico e mantém registros de todas as etapas. Dessa forma, os integrantes dos grupos sabem o que precisa ser feito, o que está sendo feito, os artefatos em teste e o que já foi concluído. Além disso, essa técnica permite uma melhor adequação a mudanças rápidas de curso do projeto, seguindo o método ágil.
 
 ## Divisão de Papéis
 
