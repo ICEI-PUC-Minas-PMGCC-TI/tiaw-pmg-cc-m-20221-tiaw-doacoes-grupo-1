@@ -10,13 +10,14 @@
 ## Participantes
 
 Os membros do grupo são:
--Arthur Souza Grossi
--Bruno Santiago de Oliveira
--Fernando Campos Silva Dal´Maria
--Gabriel Frederico Vieira Silva
--João Víctor de Barros Scarmato Reis
--Larissa de Castro Reis e Silva
--Rafael Fleury Barcellos Ceolin de Oliveira
+
+- Arthur Souza Grossi
+- Bruno Santiago de Oliveira
+- Fernando Campos Silva Dal´Maria
+- Gabriel Frederico Vieira Silva
+- João Víctor de Barros Scarmato Reis
+- Larissa de Castro Reis e Silva
+- Rafael Fleury Barcellos Ceolin de Oliveira
 
 # Estrutura do Documento
 
@@ -442,20 +443,20 @@ A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmi
 
 ### Scrum Master
 
-*Bruno Santiago de Oliveira
+* Bruno Santiago de Oliveira
 
 ### Product Owner
 
-*Professores
+* Professores
 
 ### Equipe de Desenvolvimento
 
-*Arthur Souza Grossi
-*Fernando Campos Silva Dal´Maria
-*Gabriel Frederico Vieira Silva
-*João Víctor de Barros Scarmato Reis
-*Larissa de Castro Reis e Silva
-*Rafael Fleury Barcellos Ceolin de Oliveira
+* Arthur Souza Grossi
+* Fernando Campos Silva Dal´Maria
+* Gabriel Frederico Vieira Silva
+* João Víctor de Barros Scarmato Reis
+* Larissa de Castro Reis e Silva
+* Rafael Fleury Barcellos Ceolin de Oliveira
 
 ## Ferramentas
 
