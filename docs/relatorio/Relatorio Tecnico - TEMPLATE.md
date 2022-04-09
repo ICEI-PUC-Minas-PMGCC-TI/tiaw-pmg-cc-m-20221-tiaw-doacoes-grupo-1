@@ -6,7 +6,11 @@ Trabalho Interdisciplinar - Aplicacões Web
 
 `Ciência da Computação`
 
-1º semestre
+1º semestre de 2022
+
+### Prazo para Confecção
+
+> Março de 2022 até Julho de 2022
 
 ## Participantes
 
@@ -430,6 +434,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
+## Metodologia Bibliográfica
+
 Trata-se de um projeto social cuja operacionalização iniciou-se com um levantamento bibliográfico focado nos principais aspectos que causam ou influenciam o problema e nas principais causas do problema. A pesquisa bibliográfica se deu através da consulta as bases de dados: “Scielo, Google Scholar e IEEE Explore”. Para a efetivação das buscas os seguintes descritores em inglês foram utilizados: “global warming, greenhouse effect, natural disasters, consequences, causes e brazil”. Os descritores apresentados foram combinados de diferentes formas para ampliar os resultados das buscas e consequentemente melhorar a qualidade e o aproveitamento dos artigos selecionados. 
 
 Como critérios de inclusão temos: (1) artigos publicados de 2017 a 2022, com destaque àqueles estudos concluídos no ano de 2020; (2) artigos publicados em inglês; (3) artigos experimentais, com estudo bem documentado e metodologia comprovada; (4) artigos de revisão e artigos de revisão sistemática com metodologia comprovada; (5) artigos que contemplavam causas e consequências do aquecimento global; (6) artigos experimentais e de revisão que avaliavam os riscos, as consequências e as implicações dos desastres naturais, principalmente aqueles artigos voltados para o Brasil. Vale ressaltar que este projeto de pesquisa não incluiu todos os artigos encontrados nas bases. 
@@ -437,6 +443,8 @@ Como critérios de inclusão temos: (1) artigos publicados de 2017 a 2022, com d
 Como critérios de exclusão temos: (1) artigos publicados antes de 2017, publicações com conflito de interesse ou publicações com metodologia deficitária; (2) artigos que contemplem apenas a química e a física envolvida no aquecimento global; (3) artigos que apenas relacionem o aquecimento global com a fisiologia e/ou com a bioquímica do corpo humano; (4) editoriais ou relatos de caso; (5) artigos relacionados somente com a botânica; (6) artigos com foco em geopolítica. 
 
 A pesquisa bibliográfica inicial levantou 10 artigos principais até o momento, todos voltados para problemas climáticos, aquecimento global, desastres naturais no Brasil e/ou impactos das mudanças climáticas para sociedade e para o estado. Além desses textos, 4 reportagens foram selecionadas no portal G1 da globo.com para auxiliar na exemplificação do problema e dos impactos dos desastres naturais no Brasil. Por fim, 2 referências complementares foram adicionadas para aprofundar os temas contemplados neste arquivo.
+
+## Metodologia Desenvolvimento
 
 A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmico e mantém registros de todas as etapas. Dessa forma, os integrantes dos grupos sabem o que precisa ser feito, o que está sendo feito, os artefatos em teste e o que já foi concluído. Além disso, essa técnica permite uma melhor adequação a mudanças rápidas de curso do projeto, seguindo o método ágil.
 
@@ -466,6 +474,7 @@ A tabela subsequente contempla as principais plataformas que serão utilizadas p
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOFDWTFQ=/ | 
+|Organização do Projeto | Trello | https://trello.com/b/KYdvkF50/tiaw |
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1 | 
 |Hospedagem do site | Github Pages |  https://icei-puc-minas-pmgcc-ti.github.io/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1/codigo/ | 
 |Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/dEjHc4jMdxp4AqojGCUbRl/WireFrame?node-id=0%3A1 | 
@@ -586,25 +595,25 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 # Referências
 
-1.  ZANDALINAS, S. I.; FRITSCHI, F. B.; MITTLER, R. Global Warming, Climate Change, and Environmental Pollution: Recipe for a Multifactorial Stress Combination Disaster. Trends in Plant Science, v. 26, n. 6, p. 588-599, jun. 2021.
+1.  ZANDALINAS, S. I.; FRITSCHI, F. B.; MITTLER, R. Global Warming, Climate Change, and Environmental Pollution: Recipe for a Multifactorial Stress Combination Disaster. **Trends in Plant Science**, v. 26, n. 6, p. 588-599, jun. 2021.
 
-2. AL-GHUSSAIN, L. Global Warming: Review on Driving Forces and Mitigation. Environmental Progress & Sustainable Energy, v. 38, n. 1, p. 13-21, out. 2018.
+2. AL-GHUSSAIN, L. Global Warming: Review on Driving Forces and Mitigation. **Environmental Progress & Sustainable Energy**, v. 38, n. 1, p. 13-21, out. 2018.
 
-3. DUFFIE, A. J.; BECKMAN, W. A. Solar Engineering of Thermal Processes. 4. ed. New Jersey: Wiley, 2013.
+3. DUFFIE, A. J.; BECKMAN, W. A. **Solar Engineering of Thermal Processes**. 4. ed. New Jersey: Wiley, 2013.
 
 4. NASA. Global Climate Change: Vital Signs of the Planet. Disponível em: https://climate.nasa.gov/causes/ Acesso em:  Mar 2022.
 
-5. SCHMIDT, I. B.; ELOY, L. Fire regime in the Brazilian Savanna: recent changes, policy and management. Flora, v. 268, n. 151613, jul. 2020.
+5. SCHMIDT, I. B.; ELOY, L. Fire regime in the Brazilian Savanna: recent changes, policy and management. **Flora**, v. 268, n. 151613, jul. 2020.
 
-6. LETCHER, T. M., et al. Why do we have global warming? Managing Global Warming, p. 3-15. 2019.
+6. LETCHER, T. M., et al. Why do we have global warming? **Managing Global Warming**, p. 3-15. 2019.
 
-7. ROSSATI, A. Global Warming and Its Health Impact. The international Journal of  Occupational and Environmental Medicine, v. 8, n. 1, p. 7-20, jan. 2017.
+7. ROSSATI, A. Global Warming and Its Health Impact. **The international Journal of  Occupational and Environmental Medicine**, v. 8, n. 1, p. 7-20, jan. 2017.
 
-8. MARENGO, J. A., et al.  Extreme Rainfall and Hydro-Geo-Meteorological Disaster Risk in 1.5, 2.0, and 4.0◦C Global Warming Scenarios: An Analysis for Brazil. Frontiers in Climate, v. 3, n. 610433, p. 1-17, mar. 2021.
+8. MARENGO, J. A., et al.  Extreme Rainfall and Hydro-Geo-Meteorological Disaster Risk in 1.5, 2.0, and 4.0◦C Global Warming Scenarios: An Analysis for Brazil. **Frontiers in Climate**, v. 3, n. 610433, p. 1-17, mar. 2021.
 
-9. RODRIGUES, D. T., et al. Probability of occurrence of extreme precipitation events and natural disasters in the city of Natal, Brazil. Urban Climate, v. 35., p. 1-13, jan. 2021.
+9. RODRIGUES, D. T., et al. Probability of occurrence of extreme precipitation events and natural disasters in the city of Natal, Brazil. **Urban Climate**, v. 35., p. 1-13, jan. 2021.
 
-10. MARENGO, J. A., et al. Trends in extreme rainfall and hydrogeometeorological disasters in the Metropolitan Area of São Paulo: a review. Annals Of The New York Academy Of Sciences, v. 1472, n. 1, p. 5-20, fev. 2020.
+10. MARENGO, J. A., et al. Trends in extreme rainfall and hydrogeometeorological disasters in the Metropolitan Area of São Paulo: a review. **Annals Of The New York Academy Of Sciences**, v. 1472, n. 1, p. 5-20, fev. 2020.
 
 11. Chuva deixa mais de 500 famílias desabrigadas, prefeito isolado e distritos inundados em Jucuruçu, na Bahia. Acesso em: 23/02/2022; Disponível em: https://g1.globo.com/ba/bahia/noticia/2021/12/10/chuva-deixa-mais-de-500-familias-desabrigadas-prefeito-isolado-e-distritos-inundados-em-jucurucu-na-bahia.ghtml.
 
@@ -613,14 +622,16 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 14. Investimento do governo federal em prevenção de desastres naturais tem caído há dez anos. Disponível em: https://g1.globo.com/jornal-nacional/noticia/2022/02/23/investimento-do-governo-federal-em-prevencao-de-desastres-naturais-tem-caido-ha-dez-anos.ghtml. Acesso em: 21 mar. 2022. 
 
-15. JANG, S., et al. Systematic Review of Displacement and Health Impact From Natural Disasters in Southeast Asia.  Disaster Medicine and Public Health Preparedness, v. 15, n. 1, p. 105-114, jan 2020.
+15. JANG, S., et al. Systematic Review of Displacement and Health Impact From Natural Disasters in Southeast Asia.  **Disaster Medicine and Public Health Preparedness**, v. 15, n. 1, p. 105-114, jan 2020.
 
 16. BENEVOLENZA, M. A.; DERIGNE, L. The impact of climate change and natural
-disasters on vulnerable populations: A systematic review of literature. Journal of Human Behavior in the Social Environment, v. 29, n. 2, p. 266-281, out. 2018.
+disasters on vulnerable populations: A systematic review of literature. **Journal of Human Behavior in the Social Environment**, v. 29, n. 2, p. 266-281, out. 2018.
 
 17. MDN Web Docs. Disponível em: https://developer.mozilla.org/pt-BR/.
 
 ‌18. W3SCHOOLS. W3Schools Online Web Tutorials. Disponível em: https://www.w3schools.com/.
+
+19. KEN S.; JEFF S. **The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game**. nov. 2020. Disponível em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100. Acesso em: 11/03/2022.
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
