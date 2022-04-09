@@ -9,25 +9,25 @@ Um site que permite o cadastro de usuários que têm a intenção de doar bens m
 
 ## Alunos integrantes da equipe
 
-*Arthur Souza Grossi
-*Bruno Santiago de Oliveira
-*Fernando Campos Silva Dal´Maria
-*Gabriel Frederico Vieira Silva
-*João Víctor de Barros Scarmato Reis
-*Larissa de Castro Reis e Silva
-*Rafael Fleury Barcellos Ceolin de Oliveira
+* Arthur Souza Grossi
+* Bruno Santiago de Oliveira
+* Fernando Campos Silva Dal´Maria
+* Gabriel Frederico Vieira Silva
+* João Víctor de Barros Scarmato Reis
+* Larissa de Castro Reis e Silva
+* Rafael Fleury Barcellos Ceolin de Oliveira
 
 ## Professores responsáveis
 
-*Carlos Alberto Marques Pietrobon
-*Daniel de Oliveira Capanema
-*Felipe Domingos da Cunha
-*Fernanda Farinelli
-*Ilo Amy Saldanha Rivero
-*João Carlos Oliveira Caetano
-*Max do Val Machado
-*Rommel Vieira Carneiro
-*Walisson Ferreira de Carvalho
+* Carlos Alberto Marques Pietrobon
+* Daniel de Oliveira Capanema
+* Felipe Domingos da Cunha
+* Fernanda Farinelli
+* Ilo Amy Saldanha Rivero
+* João Carlos Oliveira Caetano
+* Max do Val Machado
+* Rommel Vieira Carneiro
+* Walisson Ferreira de Carvalho
 
 ## Instruções de utilização
 
