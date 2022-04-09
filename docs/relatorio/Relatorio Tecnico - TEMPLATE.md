@@ -1,11 +1,12 @@
 # Informações do Projeto
+
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Trabalho Interdisciplinar - Aplicacões Web
 
-`CURSO` 
+`Ciência da Computação`
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1º semestre
 
 ## Participantes
 
