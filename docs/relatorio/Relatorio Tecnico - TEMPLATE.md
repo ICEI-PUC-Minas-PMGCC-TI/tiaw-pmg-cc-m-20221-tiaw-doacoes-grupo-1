@@ -9,10 +9,7 @@
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-## Os membros do grupo são:
-
+Os membros do grupo são:
 -Arthur Souza Grossi
 -Bruno Santiago de Oliveira
 -Fernando Campos Silva Dal´Maria
