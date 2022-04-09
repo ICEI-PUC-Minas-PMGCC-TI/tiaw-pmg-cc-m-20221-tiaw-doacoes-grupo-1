@@ -11,11 +11,15 @@
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+## Os membros do grupo são:
+
+-Arthur Souza Grossi
+-Bruno Santiago de Oliveira
+-Fernando Campos Silva Dal´Maria
+-Gabriel Frederico Vieira Silva
+-João Víctor de Barros Scarmato Reis
+-Larissa de Castro Reis e Silva
+-Rafael Fleury Barcellos Ceolin de Oliveira
 
 # Estrutura do Documento
 
@@ -449,6 +453,7 @@ A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmi
 
 ### Equipe de Desenvolvimento
 
+*Arthur Souza Grossi
 *Fernando Campos Silva Dal´Maria
 *Gabriel Frederico Vieira Silva
 *João Víctor de Barros Scarmato Reis
