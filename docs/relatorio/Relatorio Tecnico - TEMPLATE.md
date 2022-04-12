@@ -633,6 +633,8 @@ disasters on vulnerable populations: A systematic review of literature. **Journa
 
 19. KEN S.; JEFF S. **The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game**. nov. 2020. Disponível em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100. Acesso em: 11/03/2022.
 
+20. ATLASSIAN. **Scrum — o que é, como funciona e por que é incrível**. Disponível em: <https://www.atlassian.com/br/agile/scrum>.
+
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
 > 
