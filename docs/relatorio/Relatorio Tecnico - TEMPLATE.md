@@ -1,6 +1,6 @@
 # Informações do Projeto
 
-`TÍTULO DO PROJETO`  
+`Doação Express`  
 
 Trabalho Interdisciplinar - Aplicacões Web
 
@@ -456,7 +456,7 @@ A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmi
 
 ### Product Owner
 
-* Professores
+* Rafael Fleury
 
 ### Equipe de Desenvolvimento
 
@@ -485,6 +485,7 @@ A tabela subsequente contempla as principais plataformas que serão utilizadas p
 |Consulta de Informações | w3schools | https://www.w3schools.com/ | 
 |Consulta de Informações | M mdn - mozilla | https://developer.mozilla.org/pt-BR/ | 
 |Comunicação | Discord | https://discord.gg/6HQdRebb23 |
+|User Flow| Miro | https://miro.com/welcomeonboard/b0FCRGQ0SVdsbXhGaHJySG1YVENoRjdjMnRmM1hoeDQ4dTFFTDl4R3VQdlJsR25sY2d5MWZKWkRLZ2NBVFdpR3wzMDc0NDU3MzUxMzkyOTA4MTk1?share_link_id=451808885641 |
 
 ## Controle de Versão
 
