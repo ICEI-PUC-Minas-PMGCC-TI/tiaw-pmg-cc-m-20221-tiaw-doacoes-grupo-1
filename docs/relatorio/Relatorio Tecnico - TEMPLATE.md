@@ -367,13 +367,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |04| As pesquisas realizadas para a confecção do trabalho não apresentam amostras grandes |
 |05| O projeto não irá lidar diretamente com as vítimas de desastres, apenas com os doadores |
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 
 # Projeto de Interface
 
@@ -392,10 +385,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-estrutura de um site web e seu relacionamentos entre suas
-páginas. Um wireframe web é uma ilustração semelhante ao
-layout de elementos fundamentais na interface.
+O wireframe foi desenvolvido seguindo a metodologia mobile-first para garantir uma interface amigavel para o usuário. Em seguida, o produto foi adaptado para as demais plataformas: tablet e desktop.
 ![Exemplo de Wireframe](images/wireframe.png)
 
 
