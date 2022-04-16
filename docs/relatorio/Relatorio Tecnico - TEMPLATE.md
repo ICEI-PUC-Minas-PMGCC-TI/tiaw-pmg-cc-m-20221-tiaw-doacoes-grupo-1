@@ -395,27 +395,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-![User Flow](images/userflow.jpg)
+Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
+![User Flow](images/userflow.jpg)
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
+estrutura de um site web e seu relacionamentos entre suas
+páginas. Um wireframe web é uma ilustração semelhante ao
+layout de elementos fundamentais na interface.
+![Exemplo de Wireframe](images/wireframe.png)
 
 
 # Metodologia
