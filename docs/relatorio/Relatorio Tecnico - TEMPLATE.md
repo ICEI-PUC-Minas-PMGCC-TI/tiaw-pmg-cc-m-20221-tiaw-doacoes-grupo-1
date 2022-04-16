@@ -167,18 +167,13 @@ O público-alvo selecionado para o projeto será melhor avaliado durante o proce
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-- O projeto conta com entendimento das dúvidas, certezas e suposições a respeito do problema enfrentado, mapeamento das principais pessoas envoltas do problema, perfis fictícios do cliente ideal, um mapeamento desses perfis, algumas ideias abordadas para a resolução do projeto e uma entrevista com pessoas reais que deram a base para a criação dos perfis de clientes. As técnicas utilizadas para estes itens foram uma Matriz de alinhamento CSD, Mapa de Stakeholders, Personas (com detalhamento de Objetos e Lugares, Objetivos Chave e Como devemos tratá-la), Mapa de Empatia, BrainStorming de ideias, Mural de Possibilidades, Priorização de Ideias, Detalhamento das Ideias, Entrevista Qualitativa e Hightlights de pesquisa, respectivamente.
+- O projeto conta com entendimento das dúvidas, certezas e suposições a respeito do problema enfrentado, mapeamento das principais pessoas envolvidas no problema, perfis fictícios do cliente ideal, um mapeamento desses perfis, algumas ideias abordadas para a resolução do projeto e uma entrevista com pessoas reais que deram a base para a criação dos perfis de clientes. As técnicas utilizadas para estes itens foram: uma Matriz de alinhamento CSD, Mapa de Stakeholders, Personas (com detalhamento de Objetos e Lugares, Objetivos Chave e Como devemos tratá-la), Mapa de Empatia, BrainStorming de ideias, Mural de Possibilidades, Priorização de Ideias, Detalhamento das Ideias, Entrevista Qualitativa e Hightlights de pesquisa, respectivamente. Por fim, vale ressaltar que todas as técnicas citadas acima foram realizadas com a aplicação da metodologia Scrum.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
 > realizar a especificações do projeto
 
 ## Personas e Mapas de Empatia
-
-......  COLOQUE AQUI O SEU TEXTO ......
 
 ### Persona - Mateus Lourenço Silva
 
@@ -210,7 +205,6 @@ abrir um restaurante.
 
 4. O que ele ouve: Seus amigos dizem que ele se preocupa demais com a vida dos outros e se preocupa demais com a opinião que seus pais tem sobre suas decisões. Seu chefe acredita que ele ainda teria uma carreira de grande sucesso na área atual e o incentiva a não largar o emprego.
 
-
 ### Persona - Samuel Silveira da Silva
 
 Samuel está habituado a utilizar seu celular em seus intervalos de trabalho. O mesmo, durante seu tempo livre, tem o costume de ler livros e jornais impressos, com o intuito de se informar sobre as atualidades e novas tendencias tecnológicas. Em casa, está habituado a assistir televisão.
@@ -238,7 +232,6 @@ Samuel está habituado a utilizar seu celular em seus intervalos de trabalho. O 
 3. O que ele diz e faz: Em público Samuel é gentil e extrovertido e adora ser o centro das atenções, tentando garantir que todos gostem dele. Quando se trata de aparência ele se veste coerentemente a alguém de sua classe social (alta).
 
 4. O que ele ouve: Seus amigos o consideram uma das pessoas mais caridosas e bondosas que eles conhecem, já o seu chefe além de concordar com as afirmações anteriores o considera extremamente prestativo e um ótimo profissional.
-
 
 ### Persona - Flora Alves Conceição
 
@@ -268,8 +261,6 @@ se preocupar mais com o aluguel no final do mês sua maior inspiração é sua i
 3. O que ela diz e faz: Diz que é grata pela vida que tem mesmo trabalhando muito e bem comportada e humilde, sempre correndo mas muito atenciosa. Flora tem 1,50 de altura, e magra, tem cabelo curto e ondulado, e parda e usa óculos.
 
 4. O que ela ouve: Os amigos dizem que esta cada vez mais difícil conquistas as coisas mas acredita que vai melhorar com novos governantes na politica. Ouve muito sobre empatia, pois em seu meio isto e comum no dia a dia, principalmente diante de tantas dificuldades. O chefe diz que ela e esforçada e trabalhadora mas que deveria fazer cursos de atualização para ter mais oportunidades em sua empresa.
-
-
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
 > você deve ser enumerar e descrever precisamente e de forma
@@ -422,7 +413,10 @@ A pesquisa bibliográfica inicial levantou 10 artigos principais até o momento,
 
 ## Metodologia Desenvolvimento
 
-A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmico e mantém registros de todas as etapas. Dessa forma, os integrantes dos grupos sabem o que precisa ser feito, o que está sendo feito, os artefatos em teste e o que já foi concluído. Além disso, essa técnica permite uma melhor adequação a mudanças rápidas de curso do projeto, seguindo o método ágil.
+Esse projeto também faz uso da metodologia Scrum para facilitar as interações entre os membros da equipe e para aumentar a chance de sucesso do projeto. A metodologia Scrum também foi aplicada para permitir uma interassão satisfatória entre aqueles que executam o trabalho e aqueles que o recebem. Durante a execução do trabalho a transparencia, a inspeção e a adaptação foram e são pilares para o desenvolvimento do produto final.   
+
+Durante a execução da Sprint 1 o Scrum team se manteve atendo e engajado com o processo proposto pela metodologia Scrum. Realizamos Daily Scrums para inspecionar o progresso em direção a Meta da Sprint e adaptar o Sprint Backlog, além de realizarmos interações adicionais para discutir informações relevantes para a execução do projeto. A Sprint Review foi realizada para inspecionar o resultado da Sprint no dia 16/04/2022 e a Sprint Retrospective foi realizada no dia 17/04/2022 (mesmo dia da entrega do sprint backlog). Vale ressaltar que todo o trabalho concluido pela equipe durante a primeira Sprint levou em conta os principais valores do metodo Scrum: Compromisso, Foco, Abertura, Respeito e Coragem.
+
 
 ## Divisão de Papéis
 
