@@ -1,6 +1,6 @@
 # Informações do Projeto
 
-`TÍTULO DO PROJETO`  
+`Doação Express`  
 
 Trabalho Interdisciplinar - Aplicacões Web
 
@@ -75,22 +75,6 @@ Com a ocorrência de desastres naturais, muitas vezes é necessária a arrecada�
 
 **Como facilitar a arrecadação de doações, não empresariais, para instituições que auxiliam vítimas de desastres naturais no Brasil?**
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 ### Objetivo Geral
@@ -107,15 +91,6 @@ Facilitar o acesso do usuário à campanhas de doações financeiras ou materiai
 •	Proporcionar ao usuário um direcionamento eficaz para sua doação (para quem e para qual região doar).
 
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Os desastres podem ser classificados em 2 tipos: naturais ou artificiais. O primeiro também pode ser categorizado como: desastre geofísico, hidrológico, climatológico, meteorológico ou biológico. No período de 1994 a 2013 mais de 218 milhões de pessoas foram afetadas por mais de 6000 desastres naturais. Dentre esses desastres podemos contabilizar terremotos, tsunamis, tufões, terremotos e inundações. Eventos que causam uma alta mortalidade e induzem o deslocamento massivo da população afetada. O deslocamento residencial e a exposição à desastres naturais são associados tanto a doenças infecciosas e psicológicas quanto a doenças crônicas. Além disso a ausência de empregos e a falta de segurança também são problemas que atingem essas populações.(15)
@@ -125,18 +100,6 @@ Nas últimas décadas o aumento da temperatura da atmosfera e o aumento dos desa
 _“A World Vision International, uma grande fornecedora de ajuda em desastres em todo o mundo, relata uma diminuição acentuada nas doações em dinheiro, começando em pouco menos de quatro milhões para o furacão Harvey no Texas, US$ 900.000 para o furacão Irma no Caribe e na Flórida, US$ 150.000 para o terremoto no México matando 340 pessoas e para apenas cerca de US$ 100.000 para o furacão Maria em Porto Rico.” (16)_
 
 As populações expostas à desastres naturais, principalmente as minorias e a população de baixa renda, sofrem com a perda de seus bens materiais, de suas casas, de sua saúde física e/ou mental e, em alguns casos, com a perda de familiares. No Brasil vemos nos últimos anos um número cada vez maior de catástrofes ambientais e, consequentemente, um número de vítimas proporcional. Entretanto as políticas públicas voltadas para o meio ambiente e para as populações afetadas pelos desastres não são eficientes e são insuficientes. Por esse motivo a ação dos doadores no país é de extrema importância. Dessa forma este projeto pretende facilitar a ação dos doadores e incentivar o aumento do número de doações para vítimas de desastres naturais no Brasil.(2, 5, 14, 15, 16)
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -150,35 +113,12 @@ O público-alvo para este projeto é composto por uma fatia demográfica da popu
 
 O público-alvo selecionado para o projeto será melhor avaliado durante o processo de design thinking. Dessa forma, com as entrevistas, serão elaboradas personas, ou seja, modelos de consumidores ideais para nosso projeto. Finalmente com o projeto de design thinking em mãos para orientar a confecção do projeto iremos iniciar o desenvolvimento do site. 
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-- O projeto conta com entendimento das dúvidas, certezas e suposições a respeito do problema enfrentado, mapeamento das principais pessoas envoltas do problema, perfis fictícios do cliente ideal, um mapeamento desses perfis, algumas ideias abordadas para a resolução do projeto e uma entrevista com pessoas reais que deram a base para a criação dos perfis de clientes. As técnicas utilizadas para estes itens foram uma Matriz de alinhamento CSD, Mapa de Stakeholders, Personas (com detalhamento de Objetos e Lugares, Objetivos Chave e Como devemos tratá-la), Mapa de Empatia, BrainStorming de ideias, Mural de Possibilidades, Priorização de Ideias, Detalhamento das Ideias, Entrevista Qualitativa e Hightlights de pesquisa, respectivamente.
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+- O projeto conta com entendimento das dúvidas, certezas e suposições a respeito do problema enfrentado, mapeamento das principais pessoas envolvidas no problema, perfis fictícios do cliente ideal, um mapeamento desses perfis, algumas ideias abordadas para a resolução do projeto e uma entrevista com pessoas reais que deram a base para a criação dos perfis de clientes. As técnicas utilizadas para estes itens foram: uma Matriz de alinhamento CSD, Mapa de Stakeholders, Personas (com detalhamento de Objetos e Lugares, Objetivos Chave e Como devemos tratá-la), Mapa de Empatia, BrainStorming de ideias, Mural de Possibilidades, Priorização de Ideias, Detalhamento das Ideias, Entrevista Qualitativa e Hightlights de pesquisa, respectivamente. Por fim, vale ressaltar que todas as técnicas citadas acima foram realizadas com a aplicação da metodologia Scrum.
 
 ## Personas e Mapas de Empatia
-
-......  COLOQUE AQUI O SEU TEXTO ......
 
 ### Persona - Mateus Lourenço Silva
 
@@ -210,7 +150,6 @@ abrir um restaurante.
 
 4. O que ele ouve: Seus amigos dizem que ele se preocupa demais com a vida dos outros e se preocupa demais com a opinião que seus pais tem sobre suas decisões. Seu chefe acredita que ele ainda teria uma carreira de grande sucesso na área atual e o incentiva a não largar o emprego.
 
-
 ### Persona - Samuel Silveira da Silva
 
 Samuel está habituado a utilizar seu celular em seus intervalos de trabalho. O mesmo, durante seu tempo livre, tem o costume de ler livros e jornais impressos, com o intuito de se informar sobre as atualidades e novas tendencias tecnológicas. Em casa, está habituado a assistir televisão.
@@ -238,7 +177,6 @@ Samuel está habituado a utilizar seu celular em seus intervalos de trabalho. O 
 3. O que ele diz e faz: Em público Samuel é gentil e extrovertido e adora ser o centro das atenções, tentando garantir que todos gostem dele. Quando se trata de aparência ele se veste coerentemente a alguém de sua classe social (alta).
 
 4. O que ele ouve: Seus amigos o consideram uma das pessoas mais caridosas e bondosas que eles conhecem, já o seu chefe além de concordar com as afirmações anteriores o considera extremamente prestativo e um ótimo profissional.
-
 
 ### Persona - Flora Alves Conceição
 
@@ -270,30 +208,6 @@ se preocupar mais com o aluguel no final do mês sua maior inspiração é sua i
 4. O que ela ouve: Os amigos dizem que esta cada vez mais difícil conquistas as coisas mas acredita que vai melhorar com novos governantes na politica. Ouve muito sobre empatia, pois em seu meio isto e comum no dia a dia, principalmente diante de tantas dificuldades. O chefe diz que ela e esforçada e trabalhadora mas que deveria fazer cursos de atualização para ter mais oportunidades em sua empresa.
 
 
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
-
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -304,16 +218,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema | Acompanhar casos de desastres recentes | Fazer doações para pessoas mais necessitadas |
 |Usuário do sistema | Fazer doações de forma simples pelo celular | Ter acessibilidade ao serviço |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -342,28 +246,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| O site deverá ter um sistema e/ou Cookies que rastreeiem quando o usuário acessar páginas sobre campanhas de doações ou ao compartilhar campanhas de doações nas redes sociais para que os pontos sejam acumulados | Baixa |
 |RNF-005| Deverá ter um sistema que identifique a localização do usuário no mapa para fornecer informações sobre desastres na região do mesmo | Média |
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -376,60 +258,23 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |04| As pesquisas realizadas para a confecção do trabalho não apresentam amostras grandes |
 |05| O projeto não irá lidar diretamente com as vítimas de desastres, apenas com os doadores |
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Uma das principais necessidades do projeto é facilitar o acesso de doadores às campanhas de doação. Para tal, foi desenvolvido uma interface amigável e fácil de navegar entre projetos e existes de ajuda humanitária.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
+![User Flow](images/userflow.jpg)
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+O wireframe foi desenvolvido seguindo a metodologia mobile-first para garantir uma interface amigavel para o usuário. Em seguida, o produto foi adaptado para as demais plataformas: tablet e desktop.
+![Wireframe phone](images/WireFrame-phone.png)
+![Wireframe tablet](images/WireFrame-tablet.png)
+![Wireframe desktop](images/WireFrame-desktop.png)
 
 
 # Metodologia
@@ -446,7 +291,10 @@ A pesquisa bibliográfica inicial levantou 10 artigos principais até o momento,
 
 ## Metodologia Desenvolvimento
 
-A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmico e mantém registros de todas as etapas. Dessa forma, os integrantes dos grupos sabem o que precisa ser feito, o que está sendo feito, os artefatos em teste e o que já foi concluído. Além disso, essa técnica permite uma melhor adequação a mudanças rápidas de curso do projeto, seguindo o método ágil.
+Esse projeto também faz uso da metodologia Scrum para facilitar as interações entre os membros da equipe e para aumentar a chance de sucesso do projeto. A metodologia Scrum também foi aplicada para permitir uma interação satisfatória entre aqueles que executam o trabalho e aqueles que o recebem. Durante a execução do trabalho a transparencia, a inspeção e a adaptação foram e são pilares para o desenvolvimento do produto final.   
+
+Durante a execução da Sprint 1 o Scrum team se manteve atendo e engajado com o processo proposto pela metodologia Scrum. Realizamos Daily Scrums para inspecionar o progresso em direção a Meta da Sprint e adaptar o Sprint Backlog, além de realizarmos interações adicionais para discutir informações relevantes para a execução do projeto. A Sprint Review foi realizada para inspecionar o resultado da Sprint no dia 16/04/2022 e a Sprint Retrospective foi realizada no dia 17/04/2022 (mesmo dia da entrega do sprint backlog). Vale ressaltar que todo o trabalho concluido pela equipe durante a primeira Sprint levou em conta os principais valores do método Scrum: Compromisso, Foco, Abertura, Respeito e Coragem.
+
 
 ## Divisão de Papéis
 
@@ -456,7 +304,7 @@ A equipe utilizou a metodologia Scrum, pois torna o projeto mais claro e dinâmi
 
 ### Product Owner
 
-* Professores
+* Rafael Fleury
 
 ### Equipe de Desenvolvimento
 
@@ -485,6 +333,7 @@ A tabela subsequente contempla as principais plataformas que serão utilizadas p
 |Consulta de Informações | w3schools | https://www.w3schools.com/ | 
 |Consulta de Informações | M mdn - mozilla | https://developer.mozilla.org/pt-BR/ | 
 |Comunicação | Discord | https://discord.gg/6HQdRebb23 |
+|User Flow| Miro | https://miro.com/welcomeonboard/b0FCRGQ0SVdsbXhGaHJySG1YVENoRjdjMnRmM1hoeDQ4dTFFTDl4R3VQdlJsR25sY2d5MWZKWkRLZ2NBVFdpR3wzMDc0NDU3MzUxMzkyOTA4MTk1?share_link_id=451808885641 |
 
 ## Controle de Versão
 
