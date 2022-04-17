@@ -277,7 +277,9 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ## Wireframes
 
 O wireframe foi desenvolvido seguindo a metodologia mobile-first para garantir uma interface amigavel para o usuário. Em seguida, o produto foi adaptado para as demais plataformas: tablet e desktop.
-![Exemplo de Wireframe](images/wireframe.png)
+![Wireframe phone](images/WireFrame-phone.png)
+![Wireframe tablet](images/WireFrame-tablet.png)
+![Wireframe desktop](images/WireFrame-desktop.png)
 
 
 # Metodologia
