@@ -261,12 +261,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Uma das principais necessidades do projeto é facilitar o acesso de doadores às campanhas de doação. Para tal, foi desenvolvido uma interface amigável e fácil de navegar entre projetos e existes de ajuda humanitária.
 
 ## User Flow
 
