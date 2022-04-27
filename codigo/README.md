@@ -1,5 +1,18 @@
 # Código do Projeto
 
-Mantenha neste diretório todo o código fonte do projeto. 
+```txt
+├── src
+│   ├── pages
+│   │   ├── *.html
+│   ├── js
+│   │   ├── *.js
+│   ├── css
+│   │   ├── *.css
+│   ├── img
+│   │   ├── *.png
+│   │   ├── *.jpeg
+│   │   ├── *.webp
+│   │   ├── *.ico
+├──  index.html
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+```
