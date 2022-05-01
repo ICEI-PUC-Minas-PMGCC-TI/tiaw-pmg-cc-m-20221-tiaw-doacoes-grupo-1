@@ -54,3 +54,11 @@ searchBtn.addEventListener("click", () => {
     }
 });
 
+searchBtn.addEventListener('input', e => {
+    campaigns.fuzzySearch(e.target.value, ['name', 'region', 'date', 'description', 'categories']);
+})
+
+searchMobile.addEventListener('input', e => {
+    campaigns.fuzzySearch(e.target.value, ['name', 'region', 'date', 'description', 'categories']);
+})
+
