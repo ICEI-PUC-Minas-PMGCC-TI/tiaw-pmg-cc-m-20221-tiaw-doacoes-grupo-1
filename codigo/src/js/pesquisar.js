@@ -34,7 +34,23 @@ let values = [
 
 let campaigns = new List("campaign-results", options, values)
 
-document.querySelector("#search-campaign > input").addEventListener('input', e => {
+document.querySelector("#header-searchInput").addEventListener('input', e => {
     campaigns.fuzzySearch(e.target.value, ['name', 'region', 'date', 'description', 'categories']);
 })
+
+const searchBtn = document.querySelector(".search-mobile-button");
+const searchMobile = document.querySelector("#search-mobile");
+
+searchBtn.addEventListener("click", () => {
+    const visibilidade = searchBtn.getAttribute("aria-expanded");
+    if(visibilidade === "false") {
+        searchBtn.setAttribute("aria-expanded", true);
+        searchMobile.classList.remove("disable");
+        searchMobile.setAttribute("aria-expanded", true);
+    } else if(visibilidade === "true") {
+        searchBtn.setAttribute("aria-expanded", false);
+        searchMobile.classList.add("disable");
+        searchMobile.setAttribute("aria-expanded", false);
+    }
+});
 
