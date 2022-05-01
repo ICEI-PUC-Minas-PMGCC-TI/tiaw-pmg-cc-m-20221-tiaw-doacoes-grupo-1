@@ -10,12 +10,11 @@
     <meta name="keywords" content="doações, doar, desastres naturais, importancia das doações, ajudar, auxiliar">
     <meta name="copyright" content="&#169; JealousKing 2022">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <title>Doaçãs Express</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/home/css/standard.css">
-    <script src="src/js/menu.js" defer></script>
+    <title>Doações Express</title>
+    <link rel="stylesheet" href="/codigo/src/css/style.css">
+    <link rel="stylesheet" href="/codigo/src/home/css/standard.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
-    <script src="dist/bundle.js" defer></script>
+    <script src="/codigo/dist/bundle.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,7 +23,7 @@
                 <div class="container-logo">
                     <div class="logo-div">
                         <a href="index.html">
-                            <img class="logo-div-img" src="src/img/CaixaDeDoacao.jpg" alt="Logo Doação Express">
+                            <img class="logo-div-img" src="/codigo/src/img/CaixaDeDoacao.jpg" alt="Logo Doação Express">
                         </a>
                     </div>
                 </div>
@@ -68,19 +67,25 @@
                         </div>
                     </div>
                     <div class="container-search disable-mobile">
-                        <label for="header-searchInput"><span class="sr-only">Barra de Busca</span></label>
-                        <input id="header-searchInput" type="search" placeholder="Buscar...">
+                        <label for="header-searchInput-desktop"><span class="sr-only">Barra de Busca</span></label>
+                        <input id="header-searchInput-desktop" type="text" placeholder="Buscar...">
                         <button type="button" class="search-btn button"><i class='bx bx-search'></i></button>
                     </div>
                 </div>   
             </div>
             <div id="search-mobile" class="container-search disable" aria-expanded="flase">
-                <label for="header-searchInput"><span class="sr-only">Barra de Busca</span></label>
-                <input id="header-searchInput" type="search" placeholder="Buscar...">
+                <label for="header-searchInput-mobile"><span class="sr-only">Barra de Busca</span></label>
+                <input id="header-searchInput-mobile" type="text" placeholder="Buscar...">
                 <button type="button" class="search-btn button"><i class='bx bx-search'></i></button>
             </div>
         </section>
     </header>
+
+    <main>
+        <div id="campaign-results">
+            <ul class="list destaques-grid"></ul>
+        </div>
+    </main>
     <footer>
         <section class="footer-primary container">
             <div class="footer-column--left">

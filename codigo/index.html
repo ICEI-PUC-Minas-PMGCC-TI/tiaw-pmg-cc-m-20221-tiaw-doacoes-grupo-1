@@ -10,10 +10,11 @@
     <meta name="keywords" content="doações, doar, desastres naturais, importancia das doações, ajudar, auxiliar">
     <meta name="copyright" content="&#169; JealousKing 2022">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <title>Doaçãs Express</title>
+    <title>Doações Express</title>
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/home/css/standard.css">
     <script src="src/js/menu.js" defer></script>
+    <script src="src/js/search.js" defer></script>
 </head>
 <body>
     <header>
@@ -26,13 +27,12 @@
                         </a>
                     </div>
                 </div>
-            
-                <button type="button" class="search-mobile-button button" aria-controls="search-mobile" aria-expanded="false">
+                <button type="submit" name="mobile-button" class="search-mobile-button button" aria-controls="search-mobile" aria-expanded="false">
                     <span class="sr-only">Pesquisar</span>
                     <i class='bx bx-search'></i>
                 </button>
 
-                <button type="button" class="menu-btn" aria-controls="container--primaryNav" aria-expanded="false"><span class="sr-only">
+                <button type="submit" name="desktop-button" class="menu-btn" aria-controls="container--primaryNav" aria-expanded="false"><span class="sr-only">
                     Menu
                 </span><i class='bx bx-menu'></i></button>
             
@@ -65,18 +65,22 @@
                             </button>
                         </div>
                     </div>
-                    <div class="container-search disable-mobile">
-                        <label for="header-searchInput"><span class="sr-only">Barra de Busca</span></label>
-                        <input id="header-searchInput" type="search" placeholder="Buscar...">
-                        <button type="button" class="search-btn button"><i class='bx bx-search'></i></button>
-                    </div>
-                </div>   
-            </div>
-            <div id="search-mobile" class="container-search disable" aria-expanded="flase">
-                <label for="header-searchInput"><span class="sr-only">Barra de Busca</span></label>
-                <input id="header-searchInput" type="search" placeholder="Buscar...">
-                <button type="button" class="search-btn button"><i class='bx bx-search'></i></button>
-            </div>
+                    <form id="search-bar-desktop" method="get" action="src/pages/search-page.html">
+                        <div class="container-search disable-mobile">
+                            <label for="header-searchInput"><span class="sr-only">Barra de Busca</span></label>
+                            <input id="header-searchInput" type="search" name="search" placeholder="Buscar...">
+                            <button form="search-bar-desktop" aria-controls="header-searchInput" type="submit" class="search-btn button"><i class='bx bx-search'></i></button>
+                        </div>
+                    </div>   
+                </div>
+                </form>
+                <form id="search-bar-mobile" method="get" action="src/pages/search-page.html">
+                <div id="search-mobile" class="container-search disable" aria-expanded="flase">
+                    <label for="header-searchInput"><span class="sr-only">Barra de Busca</span></label>
+                    <input id="header-searchInput" name="search" type="search" placeholder="Buscar...">
+                    <button form="search-bar-mobile" type="submit" class="search-btn button"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
         </section>
     </header>
     <main>
@@ -249,6 +253,5 @@
             </div>
         </section>
     </footer>
-    <script src="dist/bundle.js"></script>
 </body>
 </html>

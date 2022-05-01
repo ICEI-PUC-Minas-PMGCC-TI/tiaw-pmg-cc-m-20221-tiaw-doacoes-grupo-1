@@ -1,1 +1,1 @@
-import "./pesquisar.js"
+import "./search-page.js"
