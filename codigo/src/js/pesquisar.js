@@ -1,7 +1,9 @@
+import { List } from "list.js";
+
 let options = {
     valueNames: ['name', 'region', 'date', 'description', 'url-image'],
     item: values => {
-        return `<li>
+        return `<li class="campaign-item">
             <h3>${values.name}</h3>
             <p>${values.description}</p>
             <img src='${values['url-image']}'/>

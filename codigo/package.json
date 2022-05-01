@@ -1,0 +1,19 @@
+{
+  "name": "doacao-express",
+  "version": "1.0.0",
+  "description": "Site de divulgação de campanhas humanitárias voltadas à desastres naturais",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify src/js/index.js -d -o dist/bundle.js -v -t babelify"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "list.js": "^2.3.1",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babelify": "^10.0.0"
+  }
+}
