@@ -1,4 +1,3 @@
-import { List } from "list.js";
 
 let options = {
     valueNames: ['name', 'region', 'date', 'description', 'url-image'],
@@ -26,6 +25,6 @@ let values = [
 let campaigns = new List("campaign-results", options, values)
 
 document.querySelector("#search-campaign > input").addEventListener('input', e => {
-    campaigns.fuzzySearch(e.target.value, ['name', 'region', 'date', 'description']);
+    campaigns.search(e.target.value, ['name', 'region', 'date', 'description']);
 })
 
