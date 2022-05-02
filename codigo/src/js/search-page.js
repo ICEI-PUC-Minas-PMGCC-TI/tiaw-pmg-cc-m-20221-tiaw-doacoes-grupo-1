@@ -5,12 +5,12 @@ let options = {
     item: values => {
         return `
         <a href="${values['campaign-url']}" rel="external" target="_blank">
-            <div class="grid-card">
-                <div class="card-img">
-                    <img src="${values['url-image']}" alt="${values.name}">
-                </div>
-                <div class="card-legend">
-                    <p>${values.name}</p>
+            <div class="list-card">
+                <img src="${values['url-image']}" alt="${values.name}">
+                <div class="list-card-details">
+                    <h2>${values.name}</h2>
+                    <p>${values.description}</p>
+                    <p>${values.region} | ${values.date}</p>
                 </div>
             </div>
         </a>
