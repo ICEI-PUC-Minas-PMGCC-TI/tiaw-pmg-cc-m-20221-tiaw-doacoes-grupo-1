@@ -15,70 +15,39 @@
     <link rel="stylesheet" href="/codigo/src/home/css/standard.css">
     <link rel="stylesheet" href="/codigo/src/css/search-page.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="/codigo/dist/bundle.js" defer></script>
 </head>
 <body>
     <header>
         <section class="header-primary container">
-            <div class="primary-container w-fill h-fill">
-                <div class="container-logo">
-                    <div class="logo-div">
-                        <a href="index.html">
-                            <img class="logo-div-img" src="/codigo/src/img/CaixaDeDoacao.jpg" alt="Logo Doação Express">
-                        </a>
-                    </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light header-color">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Dação Express</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Página de Informação</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                      </li>
+                    </ul>
+                    <input id="header-searchInput" type="text" placeholder="Buscar...">
+    
+                    </form>
+                  </div>
                 </div>
-            
-                <button type="button" class="search-mobile-button button" aria-controls="search-mobile" aria-expanded="false">
-                    <span class="sr-only">Pesquisar</span>
-                    <i class='bx bx-search'></i>
-                </button>
-
-                <button type="button" class="menu-btn" aria-controls="container--primaryNav" aria-expanded="false"><span class="sr-only">
-                    Menu
-                </span><i class='bx bx-menu'></i></button>
-            
-                <div class="container-container">
-                    <div id="container--primaryNav" class="container-menu" data-visible="false">
-                        <button type="button" class="menu-btn2" aria-controls="container--primaryNav" aria-expanded="false"><span class="sr-only">
-                            Menu
-                        </span><i class='bx bx-x'></i></button>
-                        <nav class="primary-nav">
-                            <ul class="nav-list">
-                                <li>
-                                    <a href="#">Informações</a>
-                                </li>
-                                <li></li>
-                                <li>
-                                    <a href="#">Sobre nós</a>
-                                </li>
-                                <li></li>
-                                <li>
-                                    <a href="#">Contato</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="menu-buttons">
-                            <button type="button" class="buttons-login button">
-                                Entrar
-                            </button>
-                            <button type="button"  class="buttons-logon button">
-                                Criar conta
-                            </button>
-                        </div>
-                    </div>
-                    <div class="container-search disable-mobile">
-                        <label for="header-searchInput-desktop"><span class="sr-only">Barra de Busca</span></label>
-                        <input id="header-searchInput-desktop" type="text" placeholder="Buscar...">
-                        <button type="button" class="search-btn button"><i class='bx bx-search'></i></button>
-                    </div>
-                </div>   
-            </div>
-            <div id="search-mobile" class="container-search disable" aria-expanded="flase">
-                <label for="header-searchInput-mobile"><span class="sr-only">Barra de Busca</span></label>
-                <input id="header-searchInput-mobile" type="text" placeholder="Buscar...">
-                <button type="button" class="search-btn button"><i class='bx bx-search'></i></button>
-            </div>
+              </nav>
         </section>
     </header>
 

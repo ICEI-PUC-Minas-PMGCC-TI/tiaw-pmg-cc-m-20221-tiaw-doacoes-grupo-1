@@ -67,14 +67,10 @@ let campaigns = new List('campaign-results', options, values);
 
 campaigns.fuzzySearch(urlSearchParams.get("search"), ['name', 'region', 'date', 'description', 'categories']);
 
-const searchM = document.querySelector("#header-searchInput-mobile");
-const searchD = document.querySelector("#header-searchInput-desktop");
+const search = document.querySelector("#header-searchInput");
 
-[searchM, searchD].forEach(s => {
+search.value = urlSearchParams.get("search")
 
-    s.value = urlSearchParams.get("search")
-
-    s.addEventListener('input', e => {
-        campaigns.fuzzySearch(e.target.value, ['name', 'region', 'date', 'description', 'categories']);
-    })
-});
+search.addEventListener('input', e => {
+    campaigns.fuzzySearch(e.target.value, ['name', 'region', 'date', 'description', 'categories']);
+})
