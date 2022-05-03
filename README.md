@@ -3,7 +3,7 @@
 ![GitHub](https://img.shields.io/github/license/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1)
 [![GitHub stars](https://img.shields.io/github/stars/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1)](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1/stargazers)
 
-# Nome do projeto
+# Doações Express
 
 Um site que permite o cadastro de usuários que têm a intenção de doar bens materiais ou recursos financeiros para vítimas de desastres naturais. O usuário cadastrado terá acesso à informações relativas à campanhas de doação. Além disso, o site permite que o usuário identifique qual é a campanha mais prioritária e qual é a campanha que mais atende aos seus interesses.
 
