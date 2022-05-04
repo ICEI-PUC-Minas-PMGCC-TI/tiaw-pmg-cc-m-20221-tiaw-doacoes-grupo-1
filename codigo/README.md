@@ -1,6 +1,8 @@
 # Código do Projeto
 
 ```txt
+├── dist
+│   ├── bundle.js
 ├── src
 │   ├── pages
 │   │   ├── *.html

@@ -1,0 +1,19 @@
+#campaign-results {
+    margin: 5px;
+}
+
+.card img {
+    width: 18rem;
+}
+
+.list-card {
+    margin: 5px 0;
+    background-color: lightgray;
+    display: flex;
+    color:black;
+    gap: 3px;
+    text-align: start;
+    border: 5px;
+    border-color: red;
+    border-radius: 2px;
+}
