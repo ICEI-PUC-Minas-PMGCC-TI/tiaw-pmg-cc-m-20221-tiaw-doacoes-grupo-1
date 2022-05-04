@@ -2,6 +2,10 @@
     margin: 5px;
 }
 
+.card img {
+    width: 18rem;
+}
+
 .list-card {
     margin: 5px 0;
     background-color: lightgray;

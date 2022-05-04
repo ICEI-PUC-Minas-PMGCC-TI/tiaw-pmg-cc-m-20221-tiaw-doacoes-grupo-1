@@ -4,17 +4,23 @@ let options = {
     valueNames: ['name', 'region', 'date', 'description', 'url-image', 'categories', 'id', 'campaign-url'],
     item: values => {
         return `
-        <a href="${values['campaign-url']}" rel="external" target="_blank">
-            <div class="list-card">
-                <img src="${values['url-image']}" alt="${values.name}">
-                <div class="list-card-details">
-                    <h2>${values.name}</h2>
-                    <p>${values.description}</p>
-                    <p>${values.region} | ${values.date}</p>
+        <div class="card ">
+            <div class="card-body">
+                <div class="d-flex flex-column flex-md-row gap-2">
+                <img class="card-img m-auto" src="${values['url-image']}" alt="${values.name}">
+                <div>
+                    <h5 class="card-title">${values.name}</h5>
+                    <p class="card-text">${values.description}</p>
+                    <a href="${values['campaign-url']}" rel="external" target="_blank" class="btn btn-primary">Ir para página</a>
+                </div>
                 </div>
             </div>
-        </a>
-        `                    
+            <div class="card-footer d-flex justify-content-between">
+                <p>${values.region}</p>
+                <p>${values.date}</p>
+            </div>
+        </div>
+        `                   
     },
     i: 20,
 }
