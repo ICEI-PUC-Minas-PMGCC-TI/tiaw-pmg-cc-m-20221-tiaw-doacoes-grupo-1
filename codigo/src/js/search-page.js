@@ -3,24 +3,43 @@ const urlSearchParams = new URLSearchParams(window.location.search)
 let options = {
     valueNames: ['name', 'region', 'date', 'description', 'url-image', 'categories', 'id', 'campaign-url'],
     item: values => {
+        // return `
+        // <div class="card bg-dark text-light">
+        //     <div class="card-body">
+        //         <div class="d-flex flex-column flex-md-row gap-2">
+        //         <img class="card-img m-auto" src="${values['url-image']}" alt="${values.name}">
+        //         <div>
+        //             <h3 class="card-title fw-bold border-bottom">${values.name}</h3>
+        //             <p class="card-text">${values.description}</p>
+        //             <a href="${values['campaign-url']}" rel="external" target="_blank" class="btn btn-light">Ir para página</a>
+        //             <div class="border-top d-flex flex-row justify-content-between mt-3 fw-light">
+        //                 <p>${values.region}</p>
+        //                 <p>${values.date}</p>
+        //             </div>
+        //         </div>
+        //         </div>
+        //     </div>
+        // </div>          
+        // `
         return `
-        <div class="card ">
-            <div class="card-body">
-                <div class="d-flex flex-column flex-md-row gap-2">
-                <img class="card-img m-auto" src="${values['url-image']}" alt="${values.name}">
-                <div>
-                    <h5 class="card-title">${values.name}</h5>
-                    <p class="card-text">${values.description}</p>
-                    <a href="${values['campaign-url']}" rel="external" target="_blank" class="btn btn-primary">Ir para página</a>
-                </div>
-                </div>
-            </div>
-            <div class="card-footer d-flex justify-content-between">
-                <p>${values.region}</p>
-                <p>${values.date}</p>
-            </div>
-        </div>
-        `                   
+        <div class="blog-card">
+	<div class="meta">
+		<div class="photo" style="background-image: url(${values['url-image']})"></div>
+		<ul class="details">
+			<li class="date">${values.date}</li>
+            <li class="place">${values.region}</li>
+            <li class="tags">${values.categories.join(", ")}</li>
+		</ul>
+	</div>
+	<div class="desc">
+		<h1>${values.name}</h1>
+		<p>${values.description}</p>
+		<p class="read-more">
+			<a href="${values['campaign-url']}" rel="external" target="_blank">Saiba Mais</a>
+		</p>
+	</div>
+</div>
+`         
     },
     i: 20,
 }
