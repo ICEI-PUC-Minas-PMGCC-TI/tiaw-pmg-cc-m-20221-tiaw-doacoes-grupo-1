@@ -1,7 +1,169 @@
 
+.overlay {
+  background: #272727;
+  position: absolute;
+  padding: 5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 20%;
+  border-radius: 2%;
+  width: 27em;
+  right: 20%;
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  height: 42em;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out, visibility 0.3s ease-out, transform 0.1s ease;
+}
+.overlay.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay .fa {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.overlay h2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 2rem 0 0 0em;
+  font-weight: 900;
+}
+.overlay ul {
+  position: absolute;
+  top: 8em;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  padding: 0;
+}
+.overlay ul > li {
+  list-style: none;
+  padding: 0.8em 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-family: Raleway, Helvetica, sans-serif ;
+  display: block;
+}
+.overlay ul > li:hover {
+  border-radius: 20px;
+  background-color: #5c5c5c;
+  cursor: pointer;
+}
+
+.overlay ul li:hover:nth-child(1) {
+  background-color: transparent;
+}
+
+.overlay ul > li:first-of-type {
+  margin-top: 2em;
+}
+.overlay a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-primary {
+  padding: 20px 25px;
+  height: 100%;
+}
+
+footer#footer ul:nth-child(1) {
+  margin-top: 10em;
+}
+
+footer#footer ul > li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+footer#footer a {
+  color: rgb(211, 211, 211);
+}
+
+footer#footer a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+/* CONTAINER */
+
+.footer-column--right {
+  text-align: center;
+}
+
+/* FOOTER NAV */
+
+.footer-navigation {
+  height: 100%;
+}
+
+.footer-navigation-list {
+  font-size: 1.8rem;
+  height: 100%;
+  text-align: center;
+  list-style-type: none;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 3rem;
+}
+
+
+#header {
+  background-color: #000000;
+  color: white;
+  padding: 1em 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/pexels-julia-m-cameron-6995018.jpg");
+  background-size: auto,cover;
+  background-position: center center;
+}
+
+#menu {
+  font-size: 1.6rem;
+  position: fixed;
+  display: block;
+  right: 0;
+  top: 0;
+  padding: 8px 15px;
+  margin: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.125);
+  border-radius: 5px;
+  z-index: 1;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav#menu:hover {
+  background: rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+}
+#menu span {
+  color: white;
+  margin: 0 5px 0 0;
+}
+#menu a {
+  text-decoration: none;
+}
+
 
 body {
-  background: #202020;
+  background-color: #424242 !important;
   margin: 2rem;
 }
 
@@ -22,7 +184,7 @@ body {
   color: inherit;
 }
 .blog-card a:hover {
-  color: #5ad67d;
+  color: #8a00e4;
 }
 .blog-card:hover .photo {
   transform: scale(1.3) rotate(3deg);
@@ -91,13 +253,14 @@ body {
 }
 .blog-card .desc {
   padding: 1rem;
-  background: #fff;
+  color: white;
+  background: #4e4e4e;
   position: relative;
   z-index: 1;
 }
 .blog-card .desc h1,
 .blog-card .desc h2 {
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-serif !important;
 }
 .blog-card .desc h1 {
   line-height: 1;
@@ -108,14 +271,14 @@ body {
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
-  color: #a2a2a2;
+  color: #4e4e4e;
   margin-top: 5px;
 }
 .blog-card .desc .read-more {
   text-align: right;
 }
 .blog-card .desc .read-more a {
-  color: #5ad67d;
+  color: #8a00e4;
   display: inline-block;
   position: relative;
 }
@@ -142,7 +305,7 @@ body {
   content: "";
   position: absolute;
   height: 5px;
-  background: #5ad67d;
+  background: #8a00e4;
   width: 35px;
   top: -0.75rem;
   border-radius: 3px;
@@ -150,10 +313,18 @@ body {
 .blog-card:hover .details {
   left: 0%;
 }
+
+#header-searchInput {
+  position: sticky;
+  top:0;
+}
+
+
 @media (min-width: 640px) {
   .blog-card {
     flex-direction: row;
     gap: 2;
+    min-width: 100%;
   }
   .blog-card .meta {
     flex-basis: 40%;
@@ -165,7 +336,7 @@ body {
   .blog-card .desc:before {
     transform: skewX(-3deg);
     content: "";
-    background: #fff;
+    background: #4e4e4e;
     width: 30px;
     position: absolute;
     left: -10px;
