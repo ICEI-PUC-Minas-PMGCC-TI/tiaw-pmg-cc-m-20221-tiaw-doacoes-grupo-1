@@ -3,24 +3,6 @@ const urlSearchParams = new URLSearchParams(window.location.search)
 let options = {
     valueNames: ['name', 'region', 'date', 'description', 'url-image', 'categories', 'id', 'campaign-url'],
     item: values => {
-        // return `
-        // <div class="card bg-dark text-light">
-        //     <div class="card-body">
-        //         <div class="d-flex flex-column flex-md-row gap-2">
-        //         <img class="card-img m-auto" src="${values['url-image']}" alt="${values.name}">
-        //         <div>
-        //             <h3 class="card-title fw-bold border-bottom">${values.name}</h3>
-        //             <p class="card-text">${values.description}</p>
-        //             <a href="${values['campaign-url']}" rel="external" target="_blank" class="btn btn-light">Ir para página</a>
-        //             <div class="border-top d-flex flex-row justify-content-between mt-3 fw-light">
-        //                 <p>${values.region}</p>
-        //                 <p>${values.date}</p>
-        //             </div>
-        //         </div>
-        //         </div>
-        //     </div>
-        // </div>          
-        // `
         return `
         <div class="blog-card">
 	<div class="meta">
