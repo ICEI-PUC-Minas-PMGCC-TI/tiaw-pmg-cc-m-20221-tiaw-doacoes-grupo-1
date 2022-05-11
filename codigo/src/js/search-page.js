@@ -1,4 +1,5 @@
 const urlSearchParams = new URLSearchParams(window.location.search)
+const assert = require("assert")
 
 let options = {
     valueNames: ['name', 'region', 'date', 'description', 'url-image', 'categories', 'id', 'campaign-url'],
@@ -26,6 +27,8 @@ let options = {
     i: 20,
 }
 
+
+//Camapnhas
 let values = [
     {
         name: 'Deslizamento em Petrópolis',
@@ -47,31 +50,33 @@ let values = [
         description: 'Na segunda-feira (10), dois dias após o desabamento de um bloco rochoso nos cânions que circundam o lago de Furnas, no município de Capitólio, em Minas Gerais, matando dez pessoas, o governador do estado, Romeu Zema, participou de uma entrevista coletiva em que tentou explicar o que causou a tragédia. “Foi algo inédito, nunca aconteceu anteriormente”, afirmou. “Nos últimos 100 anos, não sabemos de nenhuma ocorrência dessas. Seria [algo] muito difícil de prever.”',
         categories: ['deslizamento']
     },
-    {
-        name: 'Enchentes na Bahia',
-        date: '5/01/2022',
-        id: Math.trunc(Math.random() * 2**32),
-        'campaign-url': 'https://www.poder360.com.br/brasil/enchentes-na-bahia-ja-atingem-mais-de-796-mil-pessoas/#:~:text=As%20enchentes%20que%20atingem%20o,atingidos%20chega%20a%20796.882%20pessoas.',
-        'url-image': 'https://static.poder360.com.br/2021/12/bahia-chuvas-848x477.jpg',
-        region: 'Bahia', 
-        description: 'As enchentes que atingem o Estado da Bahia deixam 29.243 pessoas desabrigadas, 73.518 desalojadas, 26 mortas e 520 feridas. O número total de atingidos chega a 796.882 pessoas.',
-        categories: ['enchente']
-    },
 ]
 
-values =  localStorage.setItem("campanhas", JSON.stringify(values));
+let campaigns = new List('campaign-results', options);
 
-let campaigns = new List('campaign-results', options, values);
+function add(val){
+    campaigns.add(val)
+    localStorage.setItem("campanhas", JSON.stringify(campaigns.items))
+}
 
 campaigns.fuzzySearch(urlSearchParams.get("search"), ['name', 'region', 'date', 'description', 'categories']);
 
 const search = document.querySelector("#header-searchInput");
+
+//Testa a barra de pesquisa existe
+assert.ok(search, "Search node não encontrada")
+
 
 search.value = urlSearchParams.get("search")
 
 search.addEventListener('input', e => {
     campaigns.fuzzySearch(e.target.value, ['name', 'region', 'date', 'description', 'categories']);
 })
+
+//Atualiza as campanhas
+assert.doesNotThrow(() => add(values), "Impossível atualizar lista")
+//Verifica se o localStorange conseguiu guardar as campanhas
+assert.doesNotThrow(() => localStorage.getItem("campanhas"), "Impossível resgatar campanhas")
 
 
 
