@@ -59,6 +59,8 @@ let values = [
     },
 ]
 
+values =  localStorage.setItem("campanhas", JSON.stringify(values));
+
 let campaigns = new List('campaign-results', options, values);
 
 campaigns.fuzzySearch(urlSearchParams.get("search"), ['name', 'region', 'date', 'description', 'categories']);
