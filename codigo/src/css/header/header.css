@@ -1,0 +1,63 @@
+#header {
+   background-color: #000000;
+   color: white;
+   padding: 24.1em 0;
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/pexels-julia-m-cameron-6995018.jpg");
+   background-size: auto, cover;
+   background-position: center center;
+}
+
+.icon {
+   border: 2px solid rgba(255, 255, 255, 0.5);
+   width: 1.5em;
+   display: inline-block;
+   height: 1.5em;
+   border-radius: 100%;
+   text-align: center;
+   vertical-align: middle;
+   margin-right: 5px;
+   transition: background-color 0.2s ease-in-out;
+   font-size: 1.7em;
+}
+
+#menu {
+   background-color: rgba(255, 255, 255, 0.2);
+   font-size: 1.2rem;
+   position: fixed;
+   display: block;
+   right: 0;
+   top: 0;
+   padding: 8px 15px;
+   margin: 15px;
+   border: 2px solid rgba(255, 255, 255, 0.125);
+   border-radius: 5px;
+   z-index: 1;
+   transition: background-color 0.2s ease-in-out;
+}
+
+nav#menu:hover {
+   background: rgba(255, 255, 255, 0.4);
+   cursor: pointer;
+}
+
+#menu span {
+   color: white;
+   margin: 0 5px 0 0;
+}
+
+#menu a {
+   text-decoration: none;
+}
+
+#header p {
+   padding: 1em 0;
+   letter-spacing: 0.1em;
+   font-size: 0.775rem;
+   border: none;
+}
+
+@media screen and (max-width: 500px) { 
+   #menu {
+      font-size: 1.1rem;
+   }
+}

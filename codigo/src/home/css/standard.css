@@ -22,57 +22,6 @@ body img {
    padding-right: 0;
 }
 
-#header {
-   background-color: #000000;
-   color: white;
-   padding: 24.1em 0;
-   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/pexels-julia-m-cameron-6995018.jpg");
-   background-size: auto, cover;
-   background-position: center center;
-}
-
-.icon {
-   border: 2px solid rgba(255, 255, 255, 0.5);
-   width: 1.5em;
-   display: inline-block;
-   height: 1.5em;
-   border-radius: 100%;
-   text-align: center;
-   vertical-align: middle;
-   margin-right: 5px;
-   transition: background-color 0.2s ease-in-out;
-   font-size: 1.7em;
-}
-
-#menu {
-   background-color: rgba(255, 255, 255, 0.2);
-   font-size: 1.2rem;
-   position: fixed;
-   display: block;
-   right: 0;
-   top: 0;
-   padding: 8px 15px;
-   margin: 15px;
-   border: 2px solid rgba(255, 255, 255, 0.125);
-   border-radius: 5px;
-   z-index: 1;
-   transition: background-color 0.2s ease-in-out;
-}
-
-nav#menu:hover {
-   background: rgba(255, 255, 255, 0.4);
-   cursor: pointer;
-}
-
-#menu span {
-   color: white;
-   margin: 0 5px 0 0;
-}
-
-#menu a {
-   text-decoration: none;
-}
-
 .logo {
    font-size: 2em;
    border: 2px solid rgba(255, 255, 255, 0.125);
@@ -147,13 +96,6 @@ p {
    letter-spacing: 0.1em;
    font-size: 0.975rem;
    border-top: 2px solid rgba(255, 255, 255, 0.125);
-}
-
-#header p {
-   padding: 1em 0;
-   letter-spacing: 0.1em;
-   font-size: 0.775rem;
-   border: none;
 }
 
 #one {
@@ -406,6 +348,29 @@ p {
    opacity: 1;
 }
 
+.link-para-testes {
+   background-color: transparent;
+   color: white;
+   padding: 20px 25px;
+   height: 20vh;
+   position: relative;
+}
+
+.link-para-testes a {
+   position: absolute;
+   font-weight: bold;
+   font-size: 2rem;
+   color: rgb(99, 191, 101);
+   text-decoration: none;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.link-para-testes a:hover {
+   color: rgb(70, 186, 72);
+   text-decoration: underline;
+}
 /*MEDIA---------------------------------------------------*/
 @media screen and (max-width: 990px) {
    .social ul li:first-child {
@@ -426,117 +391,20 @@ p {
 /* FOOTER */
 /* SECTION */
 
-
-.footer-primary {
-   padding: 20px 25px;
-   height: 100%;
-}
-
-footer#footer ul:nth-child(1) {
-   margin-top: 10em;
-}
-
-footer#footer ul>li {
-   list-style: none;
-   display: inline-block;
-   padding-right: 10px;
-   margin-right: 10px;
-}
-
-footer#footer a {
-   color: rgb(211, 211, 211);
-}
-
-footer#footer a:hover {
-   text-decoration: underline;
-   color: rgb(255, 255, 255);
-}
-
-/* CONTAINER */
-
-.footer-column--right {
-   text-align: center;
-}
-
-/* FOOTER NAV */
-
-.footer-navigation {
-   height: 100%;
-}
-
 .form-notify div {
    padding: 20px 0;
 }
 
-.footer-navigation-list {
-   font-size: 1.2rem;
-   height: 100%;
-   text-align: center;
-   list-style-type: none;
-   display: grid;
-   align-items: center;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
-   row-gap: 3rem;
-}
-
-/* SOCIAL LINKS */
-
-.socialLinks-redesSociais-title {
-   margin-bottom: 2rem;
-   margin-top: 5rem;
-}
-
-.social-links-list {
-   text-align: center;
-   padding-left: 10px;
-   list-style-type: none;
-}
-
-.social-links-list li {
-   display: inline-block;
-   margin-inline: 0.5rem;
-}
-
-.social-links-list li a {
-   font-size: 2rem;
-}
-
 /* MEDIA */
 
-@media screen and (max-width: 1024px) {
-   .footer-primary {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-   }
-
+@media screen and (max-width: 1024px) { 
    .form-notification-camp input {
       width: 70%;
    }
 }
 
 @media screen and (max-width: 500px) {
-   .footer-navigation-list {
-      font-size: 1.2rem;
-      grid-template-columns: 1fr;
-      gap: 0.5rem;
-      text-align: left;
-   }
-
    .article-card img {
       height: 150px;
-   }
-
-   .form-notification-camp input {
-      width: 100%;
-   }
-
-   .form-notification-camp input[type="checkbox"],
-   .form-notification-camp label[for="confirm-privacy-police"] {
-      text-align: left;
-   }
-
-   #menu {
-      font-size: 1.1rem;
    }
 }

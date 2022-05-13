@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
    <meta name="robots" content="index,follow">
    <meta charset="UTF-8">
@@ -22,14 +23,17 @@
    <script src="https://kit.fontawesome.com/d63bfd546f.js" crossorigin="anonymous"></script>
 
    <!-- STYLE e FAVICON -->
+   <link rel="stylesheet" href="src/css/style.css">
    <link rel="stylesheet" href="src/home/css/standard.css">
-   <link rel="shortcut icon" href="img/donate-heart-solid-240.png" type="image/x-icon">
+   <link rel="shortcut icon" href="src/img/donate-heart-solid-240.png" type="image/x-icon">
+
 </head>
 
 <body>
+
    <header id="header">
       <div class="container">
-         <nav id="menu">
+         <nav id="menu" aria-expanded="false">
             <span class="text-uppercase"><strong>Menu</strong></span>
             <span class="glyphicon glyphicon-menu-hamburger"><i class="fa-solid fa-bars"></i></span>
          </nav>
@@ -135,7 +139,9 @@
                <div class="col-md-6 col-sm-12 nopadding-right">
                   <article class="article-card">
 
-                     <a href="https://bancodealimentos.org.br/" target="_blank" rel="nofollow"><img src="https://bancodealimentos.org.br/wp-content/uploads/2020/08/carregando-furgao.jpg" alt="Banco de Alimentos"/></a>
+                     <a href="https://bancodealimentos.org.br/" target="_blank" rel="nofollow"><img
+                           src="https://bancodealimentos.org.br/wp-content/uploads/2020/08/carregando-furgao.jpg"
+                           alt="Banco de Alimentos" /></a>
 
                      <h2 class="text-uppercase text-center">Banco de Alimentos</h2>
                      <p>Ao longo do mês de abril, mais de 28 mil pessoas em situação de vulnerabilidade social foram
@@ -170,7 +176,9 @@
                <div class="col-md-6 col-sm-12 nopadding-right">
                   <article class="article-card">
 
-                     <a href="https://institucional.eptv.com.br/eventos/institucionais/campanharegionaldoagasalho/" target="_blank" rel="nofollow"><img src="src/img/pexels-julia-m-cameron-6995178 (1).jpg" alt="Doação de Roupas" /></a>
+                     <a href="https://institucional.eptv.com.br/eventos/institucionais/campanharegionaldoagasalho/"
+                        target="_blank" rel="nofollow"><img src="src/img/pexels-julia-m-cameron-6995178 (1).jpg"
+                           alt="Doação de Roupas" /></a>
 
                      <h2 class="text-uppercase text-center">Doação de Agasalhos</h2>
                      <p>A Campanha do Agasalho 2022 é uma parceria da EPTV com as prefeituras que fazem parte da área de
@@ -199,7 +207,8 @@
          <h2 class="text-uppercase">Contato</h2>
          <p>Receba notificações sobre novas campanhas de doação.</p>
          <div class="col text-uppercase nopadding">
-            <form action="https://api.staticforms.xyz/submit" method="post" id="formNotification" role="form" class="form-notify">
+            <form action="https://api.staticforms.xyz/submit" method="post" id="formNotification" role="form"
+               class="form-notify">
                <div>
                   <input type="hidden" name="accessKey" value="172e1cfc-2bb0-4d53-afc7-b6462846ba88">
                   <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
@@ -210,7 +219,7 @@
                </div>
                <div class="form-group">
                   <label for="email">email</label>
-                  <input type="email" class="form-control" id="email" name="email" required> 
+                  <input type="email" class="form-control" id="email" name="email" required>
                </div>
                <div class="form-group">
                   <label for="message">message</label>
@@ -257,6 +266,11 @@
             </div>
          </section>
       </footer>
+      <section>
+         <div class="link-para-testes">
+            <a href="coverage/index.html">Acessar Testes</a>
+         </div>
+      </section>
    </section>
 
    <div class="overlay">
@@ -278,14 +292,17 @@
          <li class="text-uppercase"><a href="#">sign up</a></li>
       </ul>
    </div>
-
    <div class="superlay"></div>
 
    <!-- BOOTSTRAP -->
    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-   <script src="src/js/script.js"></script>
+
+   <!-- MOCHA -->
+   <script src="dist/home_bundle.js"></script>
+
+   <script src="src/home/js/script.js"></script>
 </body>
 
 </html>

@@ -2,17 +2,25 @@
   "name": "doacao-express",
   "version": "1.0.0",
   "description": "Site de divulgação de campanhas humanitárias voltadas à desastres naturais",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "watch": "watchify src/js/index.js -d -o dist/bundle.js -v -t babelify"
+    "watch": "watchify src/home/js/script.js -d -o dist/bundle.js -v -t babelify",
+    "test:home": "watchify src/tests/home.test.js -d -o dist/home_bundle.js -v -t babelify",
+    "coverage": "nyc --reporter=html npm run test:home"
   },
   "license": "MIT",
   "dependencies": {
+    "chai-http": "^4.3.0",
     "watchify": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
-    "babelify": "^10.0.0"
-  }
+    "babelify": "^10.0.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "mocha-jsdom": "^2.0.0",
+    "nyc": "^15.1.0"
+  },
+  "author": "FernandoCsm"
 }
