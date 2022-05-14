@@ -2,9 +2,6 @@ const assert = require('assert');
 const mocha = require('mocha');
 const { expect } = require('chai');
 const { sum } = require('../home/js/script');
-const chai = require('chai');
-const chaiHttp = require('chai-http');
-const { doesNotMatch } = require('assert');
 
 mocha.setup({
     reporter: "spec",
