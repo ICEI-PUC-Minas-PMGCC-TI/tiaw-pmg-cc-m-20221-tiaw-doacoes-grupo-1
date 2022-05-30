@@ -204,7 +204,7 @@
    </section>
    <section id="formulaire">
       <div class="container">
-         <h2 class="text-uppercase">Contato</h2>
+         <h2 class="text-uppercase" id="formularioContato">Contato</h2>
          <p>Receba notificações sobre novas campanhas de doação.</p>
          <div class="col text-uppercase nopadding">
             <form action="https://api.staticforms.xyz/submit" method="post" id="formNotification" role="form"
@@ -235,10 +235,10 @@
             <div class="footer-column--left">
                <nav class="footer-navigation">
                   <ul class="footer-navigation-list">
-                     <li><a href="#">Política de Privacidade</a></li>
+                     <li><a href="src/pages/privacy-policy.html">Política de Privacidade</a></li>
                      <li><a href="#">Perguntas Frequentes</a></li>
                      <li><a href="#">Sobre nós</a></li>
-                     <li><a href="#">Contato</a></li>
+                     <li><a href="#formularioContato">Contato</a></li>
                      <li><a href="#">Login</a></li>
                      <li><a href="#">Logon</a></li>
                   </ul>
@@ -268,6 +268,13 @@
       </footer>
    </section>
 
+   <section class="lgpd-cookies">
+      <div>
+          <p>Nosso site utiliza cookies para proporcionar aos usuários uma melhor experiência de navegação. Nosso site também utiliza cookies de terceiros como aqueles do google analytics. Ao clicar no botão "Aceitar todos" você consente com a nossa <a href="src/pages/privacy-policy.html">Política de Privacidade</a> e com o uso de todos os cookies do nosso site. Se você não concordar com todos os cookies clique em "Configurar cookies" para concentir apenas com os cookies essenciais e aqueles de sua escolha.</p>
+          <button class="cookie_ok" aria-expanded="true">Aceitar</button>
+      </div>
+  </section>
+
    <div class="overlay">
       <h2 class="text-uppercase">menu</h2>
       <ul>
@@ -282,7 +289,7 @@
          <li class="text-uppercase"><a href="index.html">home</a></li>
          <li class="text-uppercase"><a href="#">página de informação</a></li>
          <li class="text-uppercase"><a href="#">sobre nós</a></li>
-         <li class="text-uppercase"><a href="#">contato</a></li>
+         <li class="text-uppercase"><a href="#formularioContato">contato</a></li>
          <li class="text-uppercase"><a href="#">log in</a></li>
          <li class="text-uppercase"><a href="#">sign up</a></li>
       </ul>
@@ -298,6 +305,7 @@
    <script src="dist/home_bundle.js"></script>
 
    <script src="src/home/js/script.js"></script>
+   <script src="src/js/lgpd.js"></script>
 </body>
 
 </html>

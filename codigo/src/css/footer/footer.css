@@ -16,6 +16,7 @@ footer#footer ul>li {
 
 footer#footer a {
    color: rgb(211, 211, 211);
+   transition: all 300ms;
 }
 
 footer#footer a:hover {
@@ -45,14 +46,15 @@ footer#footer a:hover {
    grid-template-columns: 1fr 1fr;
    grid-template-rows: 1fr 1fr 1fr;
    row-gap: 3rem;
+   padding: 0;
 }
-
 
 /* SOCIAL LINKS */
 
 .socialLinks-redesSociais-title {
    margin-bottom: 2rem;
    margin-top: 5rem;
+   color: white;
 }
 
 .social-links-list {
@@ -76,6 +78,7 @@ footer#footer a:hover {
       grid-template-columns: 1fr;
       gap: 0.5rem;
       text-align: left;
+      padding-left: 1rem;
    }
 
    .form-notification-camp input {
