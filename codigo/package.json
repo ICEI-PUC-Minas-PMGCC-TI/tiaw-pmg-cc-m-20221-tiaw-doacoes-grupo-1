@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch": "watchify index.js -d -o dist/bundle.js -v -t babelify",
-    "test:search-page": "watchify src/tests/search-page-test.test.js -d -o dist/bundle.js -v -t babelify"
+    "test:search-page": "watchify src/tests/search-page-test.test.js -d -o dist/bundle.js -v -t babelify",
+    "test:polen-api": "watchify src/tests/polen-api-test.test.js -d -o dist/bundle.js -v -t babelify"
   },
   "license": "MIT",
   "dependencies": {
@@ -15,6 +16,7 @@
     "mocha": "^10.0.0",
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
     "babelify": "^10.0.0"
   }
 }
