@@ -21,7 +21,7 @@
 }
 
 #menu {
-   background-color: rgba(255, 255, 255, 0.2);
+   background-color: rgba(0, 0, 0, 0.2);
    font-size: 1.2rem;
    position: fixed;
    display: block;
@@ -29,14 +29,14 @@
    top: 0;
    padding: 8px 15px;
    margin: 15px;
-   border: 2px solid rgba(255, 255, 255, 0.125);
+   border: 2px solid rgba(255, 255, 255, 0.3);
    border-radius: 5px;
    z-index: 1;
    transition: background-color 0.2s ease-in-out;
 }
 
 nav#menu:hover {
-   background: rgba(255, 255, 255, 0.4);
+   background: rgba(0, 0, 0, 0.4);
    cursor: pointer;
 }
 
