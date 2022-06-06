@@ -30,25 +30,20 @@ let values = []
 
 export let campaigns = new List('campaign-results', options, values);
 
-polen.listCampaignsByCategory('meio-ambiente').then(data => {
-    campaigns.add(data.results)
-}).catch(e => {
-    console.error("Erro ao tentar listar campanhas:", e)
-})
+polen.listCampaignsByCategory('meio-ambiente')
+    .then(c => campaigns.add(c, () => searchCampaigns(search.value)))
+    .catch(e => console.error("Erro ao tentar listar campanhas:", e))
 
-polen.listCampaignsByCategory('direitos-humanos').then(data => {
-    campaigns.add(data.results)
-}).catch(e => {
-    console.error("Erro ao tentar listar campanhas", e)
-})
+polen.listCampaignsByCategory('direitos-humanos')
+    .then(c => campaigns.add(c, () => searchCampaigns(search.value)))
+    .catch(e => console.error("Erro ao tentar listar campanhas:", e))
 
+function searchCampaigns(text) {
+    campaigns.fuzzySearch(text, ['name', 'region', 'description', 'category']);
 
-export function add(val){
-    campaigns.add(val)
-    localStorage.setItem("campanhas", JSON.stringify(campaigns.items))
 }
 
-campaigns.fuzzySearch(urlSearchParams.get("search"), ['name', 'region', 'date', 'description', 'category']);
+searchCampaigns(urlSearchParams.get("search"));
 
 const search = document.querySelector("#header-searchInput");
 
@@ -56,7 +51,7 @@ const search = document.querySelector("#header-searchInput");
 search.value = urlSearchParams.get("search")
 
 search.addEventListener('input', e => {
-    campaigns.fuzzySearch(e.target.value, ['name', 'region', 'date', 'description', 'category']);
+    searchCampaigns(e.target.value);
 })
 
 

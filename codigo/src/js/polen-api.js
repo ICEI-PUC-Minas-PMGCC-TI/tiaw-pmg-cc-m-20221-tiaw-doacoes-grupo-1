@@ -12,6 +12,19 @@ export function campaignBuilder(name, region, description, img_src, category, ab
     }
 }
 
+function _campaignBuilderFromJSON(data) {
+    let results = data.results
+    return results.map(campaign => 
+        campaignBuilder(
+            campaign.name,
+            campaign.region,
+            campaign.description,
+            campaign.img_src,
+            campaign.category,
+            campaign.about
+        ));
+}
+
 export async function listCategories() {
 
     let resp = await fetch("http://127.0.0.1:5000/api/v2/cause/categories")
@@ -24,14 +37,7 @@ export async function listCampaignsByCategory(category) {
     let resp = await fetch("http://127.0.0.1:5000/api/v2/list/" + category)
     let result = await resp.json()
 
-    return campaignBuilder(
-        result.name,
-        result.region,
-        result.description,
-        region.img_src,
-        region.category,
-        region.about
-    )
+    return _campaignBuilderFromJSON(result)
 }
 
 export async function listCampaigns() {
@@ -39,12 +45,5 @@ export async function listCampaigns() {
     let resp = await fetch("http://127.0.0.1:5000/api/v2/cause/all")
     let result = await resp.json()
 
-    return campaignBuilder(
-        result.name,
-        result.region,
-        result.description,
-        region.img_src,
-        region.category,
-        region.about
-    )
+    return _campaignBuilderFromJSON(result)
 }
