@@ -16,7 +16,7 @@ describe("Carregar categorias", () => {
             let data = await listCampaigns("meio-ambiente")
             
 
-            console.log(data)
+            console.log("listCampaigns: ", data)
         
         })
     })
@@ -24,14 +24,14 @@ describe("Carregar categorias", () => {
         assert.doesNotThrow(async () => {
             let data = await listCategories()
 
-            console.log(data)
+            console.log("listCategories:", data)
         })
     })
     it('#campanhas por categoria', () => {
         assert.doesNotThrow(async () => {
             let data = await listCampaignsByCategory('meio-ambiente')
 
-            console.log(data)
+            console.log("listCampaignsByCategory", data)
         })
     })
 })

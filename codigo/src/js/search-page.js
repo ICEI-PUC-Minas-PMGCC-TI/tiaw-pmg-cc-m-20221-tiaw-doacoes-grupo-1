@@ -40,7 +40,7 @@ polen.listCampaignsByCategory('direitos-humanos')
 
 function searchCampaigns(text) {
     campaigns.fuzzySearch(text, ['name', 'region', 'description', 'category']);
-
+    console.log(campaigns.list)
 }
 
 searchCampaigns(urlSearchParams.get("search"));

@@ -12,9 +12,9 @@ export function campaignBuilder(name, region, description, img_src, category, ab
     }
 }
 
-function _campaignBuilderFromJSON(data) {
-    let results = data.results
-    return results.map(campaign => 
+function _campaignBuilderFromArray(data) {
+        
+        return data.map(campaign => 
         campaignBuilder(
             campaign.name,
             campaign.region,
@@ -27,23 +27,58 @@ function _campaignBuilderFromJSON(data) {
 
 export async function listCategories() {
 
-    let resp = await fetch("http://127.0.0.1:5000/api/v2/cause/categories")
+    let resp = await fetch(BASE_URL + "api/v2/cause/categories")
     let result = await resp.json()
 
-    return result
+    return result.results
 }
 
 export async function listCampaignsByCategory(category) {
-    let resp = await fetch("http://127.0.0.1:5000/api/v2/list/" + category)
+    let resp = await fetch(BASE_URL + "api/v2/list/" + category)
     let result = await resp.json()
 
-    return _campaignBuilderFromJSON(result)
+    
+    return _campaignBuilderFromArray(result.results)
 }
 
 export async function listCampaigns() {
     
-    let resp = await fetch("http://127.0.0.1:5000/api/v2/cause/all")
+    let resp = await fetch(BASE_URL + "api/v2/cause/all")
     let result = await resp.json()
+    
+    let output = {}
+    
+    Object.entries(result.results).forEach(value => {
+        output[value[0]] = _campaignBuilderFromArray(value[1])
+    });
 
-    return _campaignBuilderFromJSON(result)
+    return output
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const BASE_URL = 'http://ec2-52-23-168-224.compute-1.amazonaws.com/'
