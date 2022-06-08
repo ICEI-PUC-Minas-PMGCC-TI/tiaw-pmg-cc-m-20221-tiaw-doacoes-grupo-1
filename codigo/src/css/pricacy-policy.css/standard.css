@@ -70,3 +70,25 @@ main {
 .footer-primary {
     padding: 0;
 } 
+
+@media screen and (max-width: 500px) {
+    .privacy-policy h1 {
+        font-size: 1.8rem;
+    }
+
+    .privacy-policy p, .privacy-policy ul {
+        font-size: 1rem;
+    }
+
+    .privacy-policy h2 {
+        font-size: 1.4rem;
+    }
+
+    .privacy-policy h3 {
+        font-size: 1.1rem;
+    }
+
+    main {
+        padding: 10rem 0.5rem 5rem 0.5rem;
+    }
+}

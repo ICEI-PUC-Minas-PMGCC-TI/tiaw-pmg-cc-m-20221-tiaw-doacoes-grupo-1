@@ -410,4 +410,23 @@ p {
    .article-card img {
       height: 150px;
    }
+
+   .overlay {
+      width: 20em;
+   }
+
+   .features article p {
+      font-size: 0.875rem;
+      margin: 0 1em;
+   }
+   
+   h2 {
+      font-size: 1.3rem;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .overlay {
+      width: 18em;
+   }
 }
