@@ -28,7 +28,7 @@ let options = {
 
 let values = []
 
-export let campaigns = new List('campaign-results', options, values);
+export const campaigns = new List('campaign-results', options, values);
 
 polen.listCampaignsByCategory('meio-ambiente')
     .then(c => campaigns.add(c, () => searchCampaigns(search.value)))
