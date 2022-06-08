@@ -301,11 +301,11 @@ p {
    padding: 0;
 }
 
-.overlay ul>li {
+.overlay ul li {
    transition: 400ms;
    list-style: none;
    padding: 0.8em 0;
-   color: rgba(255, 255, 255, 0.7);
+   color: rgba(255, 255, 255, 1);
    font-size: 12px;
    border-radius: 20px;
    letter-spacing: 0.1em;
@@ -313,7 +313,7 @@ p {
    display: block;
 }
 
-.overlay ul>li:hover {
+.overlay ul li:hover {
    background-color: #5c5c5c;
    cursor: pointer;
 }
@@ -322,11 +322,14 @@ p {
    background-color: transparent;
 }
 
-.overlay ul>li:first-of-type {
+.overlay ul li:first-of-type {
    margin-top: 2em;
 }
 
 .overlay a {
+   display: block;
+   width: 100%;
+   height: 100%;
    color: white;
    text-decoration: none;
 }
