@@ -1,3 +1,4 @@
+const BASE_URL = 'http://polen-api.ddns.net/'
 require("regenerator-runtime/runtime");
 
 
@@ -54,31 +55,3 @@ export async function listCampaigns() {
 
     return output
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const BASE_URL = 'http://ec2-52-23-168-224.compute-1.amazonaws.com/'
