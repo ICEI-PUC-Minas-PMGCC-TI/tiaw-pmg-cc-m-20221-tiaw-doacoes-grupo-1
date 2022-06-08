@@ -1,5 +1,5 @@
 .lgpd-cookies {
-    font-size: 0.875rem;
+    font-size: 1rem;
     background-color: #030101;
     position: sticky;
     bottom: 0;
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .cookie_ok {
@@ -33,4 +33,17 @@
 
 .cookie_ok:active {
     background-color: rgb(8, 88, 25);
+}
+
+@media screen and (max-width: 1024px) {
+    .lgpd-cookies p#pol-parag, .cookie_ok {
+        font-size: 0.875rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .lgpd-cookies p#pol-parag, .cookie_ok {
+        font-size: 0.8rem;
+    }
 }

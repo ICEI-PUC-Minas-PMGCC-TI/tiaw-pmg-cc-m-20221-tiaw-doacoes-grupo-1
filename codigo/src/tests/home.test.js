@@ -96,4 +96,18 @@ describe('O formulario', () => {
     });
 });
 
+describe('Barra Política de Privacidade', () => {
+    it('Armazenamento', () => {
+        const lgButton = document.querySelector('.cookie_ok');
+
+        const lgpdVisible = lgButton.getAttribute("aria-expanded");
+
+        if(lgpdVisible === 'false') {
+            expect(localStorage.getItem('cookie')).to.be.eq('true');
+        } else if(lgpdVisible === 'true') {
+            expect(localStorage.getItem('cookie')).to.be.eq('false');
+        }
+    })
+});
+
 mocha.run();

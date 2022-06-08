@@ -3,7 +3,7 @@ div.pontos {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 15%;
+    top: 100px;
     right: 0%;
     transform: translate(-10%, -50%);
     z-index: 1000;
@@ -41,4 +41,19 @@ div.pontos .pont-number {
 
 #pontuacao.pontos-disabled {
     display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    div.pontos {
+        height: 50px;
+        width: 120px;
+    }
+
+    div.pontos p {
+        font-size: 1rem;
+    }
+
+    div.pontos .pont-number {
+        font-size: 1.2rem;
+    }
 }
