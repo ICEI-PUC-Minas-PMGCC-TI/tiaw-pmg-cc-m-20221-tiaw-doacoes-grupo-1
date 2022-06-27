@@ -11,11 +11,6 @@ mocha.setup({
 })
 
 describe("Listagem", () => {
-    describe("localstorange", () => {
-        it("#get", () => {
-            assert.doesNotThrow(() => {JSON.stringify(localStorage.getItem("campanhas"))})
-        })
-    })
     describe("Campanhas", () => {
         it("#add", () => {
             return assert.doesNotThrow(() => searchPage.campaigns.add(
