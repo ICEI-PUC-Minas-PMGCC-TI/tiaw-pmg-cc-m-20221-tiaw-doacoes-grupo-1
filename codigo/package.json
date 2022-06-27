@@ -4,17 +4,19 @@
   "description": "Site de divulgação de campanhas humanitárias voltadas à desastres naturais",
   "main": "index.js",
   "scripts": {
-    "watch": "watchify src/js/index.js -d -o dist/bundle.js -v -t babelify"
+    "watch": "watchify index.js -d -o dist/bundle.js -v -t babelify",
+    "test:search-page": "watchify src/tests/search-page-test.test.js -d -o dist/bundle.js -v -t babelify",
+    "test:polen-api": "watchify src/tests/polen-api-test.test.js -d -o dist/bundle.js -v -t babelify"
   },
   "license": "MIT",
   "dependencies": {
-    "mocha": "^10.0.0",
-    "polencharitydonationapi": "^1.0.1",
     "watchify": "^4.0.0"
   },
   "devDependencies": {
+    "mocha": "^10.0.0",
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
     "babelify": "^10.0.0"
   }
 }
