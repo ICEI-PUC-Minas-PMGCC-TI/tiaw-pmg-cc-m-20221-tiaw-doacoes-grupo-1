@@ -484,6 +484,12 @@ disasters on vulnerable populations: A systematic review of literature. **Journa
 
 20. ATLASSIAN. **Scrum — o que é, como funciona e por que é incrível**. Disponível em: <https://www.atlassian.com/br/agile/scrum>.
 
+21. **CHAI.** Disponível em: <https://www.chaijs.com/>.
+    
+22. **NPM | build amazing things.** Disponível em: <https://www.npmjs.com/>.
+
+‌23. **MOCHA - the fun, simple, flexible JavaScript test framework.** Disponível em: <https://mochajs.org/>.
+
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
 > 
