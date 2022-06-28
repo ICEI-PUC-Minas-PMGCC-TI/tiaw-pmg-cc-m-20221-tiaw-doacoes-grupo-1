@@ -42,8 +42,6 @@ function initLoginApp() {
     var usuariosJSON = localStorage.getItem('db_usuarios');
 
     if (!usuariosJSON) {
-
-        alert('Dados de usuários não encontrados no localStorage. \n -----> Fazendo carga inicial.');
         db_usuarios = dadosIniciais;
         localStorage.setItem('db_usuarios', JSON.stringify(dadosIniciais));
     } else {
@@ -55,20 +53,19 @@ function initLoginApp() {
 
 
 function loginUser(login, senha) {
+    let usuario = db_usuarios.usuarios.find(usr => usr.login == login && usr.senha == senha)
 
-    for (var i = 0; i < db_usuarios.usuarios.length; i++) {
-        var usuario = db_usuarios.usuarios[i];
+    console.log(usuario)
 
-        if (login == usuario.login && senha == usuario.senha) {
-            usuarioCorrente.id = usuario.id;
-            usuarioCorrente.login = usuario.login;
-            usuarioCorrente.email = usuario.email;
-            usuarioCorrente.nome = usuario.nome;
+    if (usuario) {
+        usuarioCorrente.id = usuario.id;
+        usuarioCorrente.login = usuario.login;
+        usuarioCorrente.email = usuario.email;
+        usuarioCorrente.nome = usuario.nome;
 
-            sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
+        sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
 
-            return true;
-        }
+        return true;
     }
 
     return false;
