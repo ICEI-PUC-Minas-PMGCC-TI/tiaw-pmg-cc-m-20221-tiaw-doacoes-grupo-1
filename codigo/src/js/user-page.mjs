@@ -25,7 +25,7 @@ scrollDiv.onwheel = (e) => {
 
 
 listCampaignsByCategory('meio-ambiente').then(campaings => {
-    
+
     campaings.forEach(campaing => {
         scrollDiv.innerHTML += `<div class="cars-itre">
         <div class="itre-img">

@@ -118,7 +118,7 @@
             proporcional. Entretanto as políticas públicas voltadas para o meio ambiente e para as
             populações afetadas pelos desastres não são eficientes e são insuficientes.</p>
 
-         <div class="features">
+         <div class="features" id="cardsContainer">
             <div class="row">
                <div class="col-lg-6 col-md-6 col-sm-12">
                   <article class="article-card">
@@ -198,9 +198,7 @@
          </div>
       </div>
       <div class="container">
-         <div class="browse">
-            <a href="#"><span class="text-uppercase">Carregar Mais</span></a>
-         </div>
+            <button type="button" class="btn btn-default text-uppercase button-form-home" id="btnresults">Carregar Mais</button>
       </div>
    </section>
    <section id="formulaire">
@@ -238,8 +236,8 @@
                   <ul class="footer-navigation-list">
                      <li><a href="src/pages/privacy-policy.html">Política de Privacidade</a></li>
                      <li><a href="#formularioContato">Contato</a></li>
-                     <li><a href="src/pages/cadastro.html">Login</a></li>
-                     <li><a href="src/pages/login.html">Logon</a></li>
+                     <li><a href="src/pages/login.html">Login</a></li>
+                     <li><a href="src/pages/cadastro.html">Logon</a></li>
                   </ul>
                </nav>
             </div>
@@ -292,7 +290,7 @@
          <li class="text-uppercase"><a href="src/pages/informations.html">página de informação</a></li>
          <li class="text-uppercase"><a href="#formularioContato">contato</a></li>
          <li class="text-uppercase"><a href="src/pages/login.html">log in</a></li>
-         <li class="text-uppercase"><a href="src/pages/login.html">sign up</a></li>
+         <li class="text-uppercase"><a href="src/pages/cadastro.html">sign up</a></li>
       </ul>
    </div>
    <div class="superlay"></div>
@@ -310,9 +308,11 @@
    <script src="dist/home_bundle.js"></script>
 
    <!-- SCRIPTS -->
-   <script src="src/home/js/script.js"></script>
    <script src="src/js/lgpd.js"></script>
    <script src="src/js/pont.js"></script>
+   <script src="src/js/polen-api.js"></script>
+   <script src="src/home/js/script.js"></script>
+   <script type="module" src="dist/home-page-bundle.js"></script>
 </body>
 
 </html>
