@@ -437,6 +437,8 @@ Os principais requisitos selecionados para a modelagem dos testes foram os segui
 5. filtragem das campanhas na página de pesquisa
 6. preenchimento do formulário de e-mail
 
+Os testes de software foram projetados para avaliar unitariamente as funcionalidades do site. Esses testes podem ser carregados usando a biblioteca watchify do npm. A partir deles foi possivel analizar e encontrar bugs mais rapidamente.
+
 ### Testes de usabilidade
 
 1. Login no site
@@ -479,12 +481,6 @@ npm install --save-dev chai
 Todos os testes unitários podem ser acessados na pasta `codigo/src/tests` do presente projeto. Vale ressaltar que os desenvolvedores deste projeto procuraram utilizar as ferramentas mais apropriadas para a realização dos testes.
 
 ## Registros de Testes
-
-### Avaliações dos usuários
-1. **Adriana Margareth:** "Achei complicado a forma como era necessário entrar na página de usuário, mas entendi depois de alguns minutos e ficou mais fácil. Gostei bastante da página de informações de desastres, me ajudou muito a decidir quais campanhas eu escolheria."
-2. **Maria Eduarda Scarmato:** "Gostei muito do site. Bem bonito. Adorei os cards interativos."
-3. **Everton Nicolau Barros:** "O site tinha alguns bugs especialmente na página de informações. Os links não estavam acessíveis. Depois que corrigiram, já não tive mais nada do que reclamar de fato."
-4. **Evaldo One Carvalho:** "O site em si é muito bom e as páginas das campanhas na Pólen são bastante completos. Só não gostei muito da falta de informações na página de usuário dando dicas de como escolher uma campanha ou algo do tipo. Seria muito bom para pessoas mais desinformadas ou que nunca doaram antes."
 
 Ao serem feitos os testes de usabilidade, constatou-se que os usuáriso encontraram certa 
 dificuldade para se situarem ao entrar na página inicial, mas 
