@@ -393,20 +393,18 @@ para tecnologias web.
 |User Flow| Miro | https://miro.com/welcomeonboard/b0FCRGQ0SVdsbXhGaHJySG1YVENoRjdjMnRmM1hoeDQ4dTFFTDl4R3VQdlJsR25sY2d5MWZKWkRLZ2NBVFdpR3wzMDc0NDU3MzUxMzkyOTA4MTk1?share_link_id=451808885641 |
 | Arquitetura de Solução | Xmind | https://www.xmind.net/ |
 
+### User Flow
 
+Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+![User Flow](images/userflow.jpg)
+
+### Wireframes
+
+O wireframe foi desenvolvido seguindo a metodologia mobile-first para garantir uma interface amigavel para o usuário. Em seguida, o produto foi adaptado para as demais plataformas: tablet e desktop.
+![Wireframe phone](images/WireFrame-phone.png)
+![Wireframe tablet](images/WireFrame-tablet.png)
+![Wireframe desktop](images/WireFrame-desktop.png)
 
 ## Arquitetura da solução
 
