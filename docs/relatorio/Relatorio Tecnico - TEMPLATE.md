@@ -369,48 +369,89 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Abaixo segue algumas das estrátegias usadas durante o desenvolvimento do site Doações Express. Os métodos usados se basearam no desenvolvimento seguindo a metodologia Scrum para tecnologias web.
+
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+| Ambiente  | Plataforma              |Link de Acesso |
+|-----------|-------------------------|---------------|
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOFDWTFQ=/ | 
+|Organização do Projeto | Trello | https://trello.com/b/KYdvkF50/tiaw |
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1 | 
+|Hospedagem do site | Github Pages |  https://icei-puc-minas-pmgcc-ti.github.io/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1/codigo/ | 
+|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/dEjHc4jMdxp4AqojGCUbRl/WireFrame?node-id=0%3A1 | 
+|Paleta de Cores | Adobe Color | https://color.adobe.com/pt/create/color-wheel | 
+|Editor de Código| Visual Studio Code | https://code.visualstudio.com/ | 
+|Protótipo Interativo | IEEE Explore | https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=computer | 
+|Desenvolvimento dos Slides | Microsoft Office | https://www.microsoft.com/pt-br/microsoft-365/microsoft-office?rtc=1 | 
+|Consulta de Informações | w3schools | https://www.w3schools.com/ | 
+|Consulta de Informações | mdn - mozilla | https://developer.mozilla.org/pt-BR/ | 
+|Comunicação | Discord | https://discord.gg/6HQdRebb23 |
+|User Flow| Miro | https://miro.com/welcomeonboard/b0FCRGQ0SVdsbXhGaHJySG1YVENoRjdjMnRmM1hoeDQ4dTFFTDl4R3VQdlJsR25sY2d5MWZKWkRLZ2NBVFdpR3wzMDc0NDU3MzUxMzkyOTA4MTk1?share_link_id=451808885641 |
+| Arquitetura de Solução | Xmind | https://www.xmind.net/ |
+
+### User Flow
+
+Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+
+![User Flow](images/userflow.jpg)
+
+### Wireframes
+
+O wireframe foi desenvolvido seguindo a metodologia mobile-first para garantir uma interface amigavel para o usuário. Em seguida, o produto foi adaptado para as demais plataformas: tablet e desktop.
+![Wireframe phone](images/WireFrame-phone.png)
+![Wireframe tablet](images/WireFrame-tablet.png)
+![Wireframe desktop](images/WireFrame-desktop.png)
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+Para solucionar o problema estabelecido o time optou por uma dinâmica simples: (1) primeiramente o usuário acessa a URL do site Doação Express; (2) nesse momento o navegador do usuário fará requisições para o servido web carregando o HTML, o CSS e o JavaScript da página; (3) ao carregar o conteúdo do site, uma cascata de funções Js, necessárias para tornar o site dinâmico, é ativada; (4) após o disparo da cascata, objetos Js são dispostos no local storage e no session storage para armazenar as informações do usuário; (5) por fim recursos do site permanecem funcionais para permitir melhor interatividade com a págin e acesso aos recursos da API utilizada.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
+> **Arquitetura de Solução Doação Express:**
 > 
-> **Exemplo do diagrama de Arquitetura**:
 > 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
+> ![Arquitetura de Solucao Doacao Express](images/Doacoes-Express-Arquitetura.png)
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para a avaliação da aplicação foram realizados os testes de software e de usabilidade cabíveis. Esses testes procuraram avaliar a funcionalidade do site e a qualidade da interatividade com o usuário. Os testes, assim como os cenários serão detalhados nas próximas sessões. 
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Os principais requisitos selecionados para a modelagem dos testes foram os seguintes:
+
+- Site amigável aos usuários
+- Site interativo
+- Site dinâmico com campanhas funcionais
+- Execução correta das funções
+- Requisições via API sendo devidamente utilizadas
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Testes de software
+
+1. Requisições da API do Polen
+2. Inserção do usuário no banco de dados no Local Storange
+3. Extração de dados do Local Storange
+4. Exibição das campanhas na página de pesquisa
+5. filtragem das campanhas na página de pesquisa
+6. preenchimento do formulário de e-mail
+
+### Testes de usabilidade
+
+1. Login no site
+2. Acesso à página de usuário
+3. Uso da página de usuário
+4. Acesso às campanhas de doação
+5. Uso da página de informações
+
+As funcionalidades avaliadas foram referentes ao login e cadastro e à 
+navegação entre o menu, a página de login e a página principal. Foi avaliado como o usuário navegava pelo site e encontrava e utilizava cada serviço disponível. O usuário deveria fazer login no site, entrar em sua página e escolher campanhas que lhe interessase. O uso do site do Polen também foi avaliado e verificou-se se o usuário soube usar as ferramentas lá disponíveis.
+
+
+Para a realização do teste de usabilidade, foram selecionados individuos 
+maiores de idade, com poder economico considerável e interessados na 
+prática de doações que já possuiam o costume de realizar auxilios destinados à mesma área,.
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -422,19 +463,34 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
+## Ferramentas de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+| Testes de Software | NPM | https://www.npmjs.com/ |
+|:-------------------|:----|:-----------------------|
+| Ferramenta de Teste | Mocha | https://mochajs.org/ |
+| Ferramenta de Teste | Chai | https://www.chaijs.com/ |
 
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+As ferramentas de teste utilizadas foram importadas da NPM como dependências para o ambiente de desenvolvimento. Veja as formas de importação utilizadas:
+``` 
+npm install --save-dev mocha
+
+npm install --save-dev chai
+```
+Todos os testes unitários podem ser acessados na pasta `codigo/src/tests` do presente projeto. Vale ressaltar que os desenvolvedores deste projeto procuraram utilizar as ferramentas mais apropriadas para a realização dos testes.
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Avaliações dos usuários
+1. **Adriana Margareth:** "Achei complicado a forma como era necessário entrar na página de usuário, mas entendi depois de alguns minutos e ficou mais fácil. Gostei bastante da página de informações de desastres, me ajudou muito a decidir quais campanhas eu escolheria."
+2. **Maria Eduarda Scarmato:** "Gostei muito do site. Bem bonito. Adorei os cards interativos."
+3. **Everton Nicolau Barros:** "O site tinha alguns bugs especialmente na página de informações. Os links não estavam acessíveis. Depois que corrigiram, já não tive mais nada do que reclamar de fato."
+4. **Evaldo One Carvalho:** "O site em si é muito bom e as páginas das campanhas na Pólen são bastante completos. Só não gostei muito da falta de informações na página de usuário dando dicas de como escolher uma campanha ou algo do tipo. Seria muito bom para pessoas mais desinformadas ou que nunca doaram antes."
+
+Ao serem feitos os testes de usabilidade, constatou-se que os usuáriso encontraram certa 
+dificuldade para se situarem ao entrar na página inicial, mas 
+demonstraram maior entendimento após se passar alguns minutos. Os usuários também fizeram bom uso da página de informações e puderam decidir melhor quais campanhas mais lhe interessavam com base em quais os maiores problemas que os estados e suas cidades tinham.
+
+Testes feitos ao longo do desenvolvimento do site ajudaram a identificar bugs relacionados ao salvamento do login, quebra das páginas e informações desatualizadas. Todos os bugs foram devidamente corrigidos. Algumas das páginas também foram redesenhadas para um maior conforto ao usuário e informações mais importantes foram destacadas para facilitar o userflow, e a navegação entre as páginas em geral.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
@@ -483,6 +539,12 @@ disasters on vulnerable populations: A systematic review of literature. **Journa
 19. KEN S.; JEFF S. **The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game**. nov. 2020. Disponível em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100. Acesso em: 11/03/2022.
 
 20. ATLASSIAN. **Scrum — o que é, como funciona e por que é incrível**. Disponível em: <https://www.atlassian.com/br/agile/scrum>.
+
+21. **CHAI.** Disponível em: <https://www.chaijs.com/>.
+    
+22. **NPM | build amazing things.** Disponível em: <https://www.npmjs.com/>.
+
+‌23. **MOCHA - the fun, simple, flexible JavaScript test framework.** Disponível em: <https://mochajs.org/>.
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.

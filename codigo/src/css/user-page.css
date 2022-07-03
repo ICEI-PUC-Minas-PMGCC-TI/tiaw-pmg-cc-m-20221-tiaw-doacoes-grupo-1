@@ -1,0 +1,142 @@
+body {
+    background-color: #212529;
+}
+
+#header {
+    padding: 1em 0;
+    background-color: rgb(47, 54, 56);
+}
+
+.cars-horizontal {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 30%;
+    gap: 1rem;
+    width: 100%;
+    position: relative;
+    overflow-x: scroll;
+    padding: 1rem;
+}
+
+.cars-itre {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    text-align: center;
+    padding: 1rem;
+    background: #394047;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+}
+
+.cars-horizontal::-webkit-scrollbar {
+    height: 0.6em;
+}
+
+.cars-horizontal::-webkit-scrollbar-thumb {
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.itre-img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itre-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.itre-content p {
+    width: 100%;
+    text-align: justify;
+}
+
+h3.itre-title a {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h4.itre-region {
+    color: rgb(167, 167, 167);
+    font-size: 1rem;
+}
+
+.itre-categoria {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.itre-cat {
+    background-color: aliceblue;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.user-info {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.user-info h1 {
+    margin: 1rem auto;
+    margin-top: 2rem;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.user-info-content p {
+    margin: 0;
+    padding-block: 1rem;
+    width: 100%;
+    line-height: 1.7em;
+}
+
+.footer-navigation-list {
+    margin-top: 4rem !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .cars-horizontal {
+        grid-auto-columns: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cars-horizontal {
+        grid-auto-columns: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cars-horizontal {
+        display: block;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .cars-itre {
+        margin-bottom: 1rem;
+    }
+
+    .cars-itre:nth-child(4) ~ .cars-itre {
+        display: none;
+    }
+}
+
