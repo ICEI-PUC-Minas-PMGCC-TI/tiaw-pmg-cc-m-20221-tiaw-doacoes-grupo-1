@@ -411,7 +411,21 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Testes de software
+
+
+|N|Testes de software|
+|-|------------------|
+|1|Requisições da API do Polen|
+|2|inserção do usuário no banco de dados no Local Storange|
+|3|extração de dados do Local Storange|
+|4|exibição das campanhas na página de pesquisa|
+|5|preenchimento do formulário de e-mail|
+
+### Testes de usabilidade
+
+
+
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -425,7 +439,7 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 ## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
 
 > Comente sobre as ferramentas de testes utilizadas.
 > 
