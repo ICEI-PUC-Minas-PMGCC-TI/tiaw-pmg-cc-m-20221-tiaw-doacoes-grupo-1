@@ -369,8 +369,7 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 # Projeto da Solução
 
-Abaixo segue algumas das estrátegias usadas durante o desenvolvimento do site Doações Express. Os métodos usados se basearam no desenvolvimento seguindo a metodologia Scrum
-para tecnologias web.
+Abaixo segue algumas das estrátegias usadas durante o desenvolvimento do site Doações Express. Os métodos usados se basearam no desenvolvimento seguindo a metodologia Scrum para tecnologias web.
 
 
 ## Tecnologias Utilizadas
@@ -410,8 +409,7 @@ para tecnologias web.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
+Para solucionar o problema estabelecido o time optou por uma dinâmica simples: (1) primeiramente o usuário acessa a URL do site Doação Express; (2) nesse momento o navegador do usuário fará requisições para o servido web carregando o HTML, o CSS e o JavaScript da página; (3) ao carregar o conteúdo do site, uma cascata de funções Js, necessárias para tornar o site dinâmico, é ativada; (4) após o disparo da cascata, objetos Js são dispostos no local storage e no session storage para armazenar as informações do usuário; (5) por fim recursos do site permanecem funcionais para permitir melhor interatividade com a págin e acesso aos recursos da API utilizada.
 
 > **Arquitetura de Solução Doação Express:**
 > 
