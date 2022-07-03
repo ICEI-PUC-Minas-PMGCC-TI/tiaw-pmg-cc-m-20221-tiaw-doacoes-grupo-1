@@ -480,7 +480,7 @@ Todos os testes unitários podem ser acessados na pasta `codigo/src/tests` do pr
 
 ## Registros de Testes
 
-Ao serem feitos os testes, constatou-se que os usuáriso encontraram certa 
+Ao serem feitos os testes de usabilidade, constatou-se que os usuáriso encontraram certa 
 dificuldade para se situarem ao entrar na página inicial, mas 
 demonstraram maior entendimento após se passar alguns minutos. Os usuários também fizeram bom uso da página de informações e puderam decidir melhor quais campanhas mais lhe interessavam com base em quais os maiores problemas que os estados e suas cidades tinham.
 
