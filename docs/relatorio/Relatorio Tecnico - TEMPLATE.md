@@ -480,6 +480,12 @@ Todos os testes unitários podem ser acessados na pasta `codigo/src/tests` do pr
 
 ## Registros de Testes
 
+### Avaliações dos usuários
+1. **Adriana Margareth:** "Achei complicado a forma como era necessário entrar na página de usuário, mas entendi depois de alguns minutos e ficou mais fácil. Gostei bastante da página de informações de desastres, me ajudou muito a decidir quais campanhas eu escolheria."
+2. **Maria Eduarda Scarmato:** "Gostei muito do site. Bem bonito. Adorei os cards interativos."
+3. **Everton Nicolau Barros:** "O site tinha alguns bugs especialmente na página de informações. Os links não estavam acessíveis. Depois que corrigiram, já não tive mais nada do que reclamar de fato."
+4. **Evaldo One Carvalho:** "O site em si é muito bom e as páginas das campanhas na Pólen são bastante completos. Só não gostei muito da falta de informações na página de usuário dando dicas de como escolher uma campanha ou algo do tipo. Seria muito bom para pessoas mais desinformadas ou que nunca doaram antes."
+
 Ao serem feitos os testes de usabilidade, constatou-se que os usuáriso encontraram certa 
 dificuldade para se situarem ao entrar na página inicial, mas 
 demonstraram maior entendimento após se passar alguns minutos. Os usuários também fizeram bom uso da página de informações e puderam decidir melhor quais campanhas mais lhe interessavam com base em quais os maiores problemas que os estados e suas cidades tinham.
