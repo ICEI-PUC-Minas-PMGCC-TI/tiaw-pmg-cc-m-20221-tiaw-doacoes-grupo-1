@@ -405,7 +405,6 @@ para tecnologias web.
 > 
 > ![Arquitetura de Solucao Doacao Express](images/Doacoes-Express-Arquitetura.png)
 
-
 # Avaliação da Aplicação
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -418,14 +417,12 @@ para tecnologias web.
 
 ### Testes de software
 
-
-|N|Testes de software|
-|-|------------------|
-|1|Requisições da API do Polen|
-|2|inserção do usuário no banco de dados no Local Storange|
-|3|extração de dados do Local Storange|
-|4|exibição das campanhas na página de pesquisa|
-|5|preenchimento do formulário de e-mail|
+1. Requisições da API do Polen
+2. Inserção do usuário no banco de dados no Local Storange
+3. Extração de dados do Local Storange
+4. Exibição das campanhas na página de pesquisa
+5. filtragem das campanhas na página de pesquisa
+6. preenchimento do formulário de e-mail
 
 ### Testes de usabilidade
 
