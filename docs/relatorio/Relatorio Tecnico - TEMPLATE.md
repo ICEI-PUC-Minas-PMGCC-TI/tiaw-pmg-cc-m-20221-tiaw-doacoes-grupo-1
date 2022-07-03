@@ -482,8 +482,10 @@ Todos os testes unitários podem ser acessados na pasta `codigo/src/tests` do pr
 ## Registros de Testes
 
 Ao serem feitos os testes, constatou-se que os usuáriso encontraram certa 
-dificuldade inicial para se situarem ao entrar na página inicial, mas 
-demonstraram maior entendimento após se passar alguns minutos.
+dificuldade para se situarem ao entrar na página inicial, mas 
+demonstraram maior entendimento após se passar alguns minutos. Os usuários também fizeram bom uso da página de informações e puderam decidir melhor quais campanhas mais lhe interessavam com base em quais os maiores problemas que os estados e suas cidades tinham.
+
+Testes feitos ao longo do desenvolvimento do site ajudaram a identificar bugs relacionados ao salvamento do login, quebra das páginas e informações desatualizadas. Todos os bugs foram devidamente corrigidos. Algumas das páginas também foram redesenhadas para um maior conforto ao usuário e informações mais importantes foram destacadas para facilitar o userflow, e a navegação entre as páginas em geral.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
