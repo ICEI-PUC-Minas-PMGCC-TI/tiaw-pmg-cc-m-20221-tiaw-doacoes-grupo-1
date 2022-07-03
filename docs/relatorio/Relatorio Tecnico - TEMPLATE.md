@@ -373,7 +373,25 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
+| Ambiente  | Plataforma              |Link de Acesso |
+|-----------|-------------------------|---------------|
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOFDWTFQ=/ | 
+|Organização do Projeto | Trello | https://trello.com/b/KYdvkF50/tiaw |
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1 | 
+|Hospedagem do site | Github Pages |  https://icei-puc-minas-pmgcc-ti.github.io/tiaw-pmg-cc-m-20221-tiaw-doacoes-grupo-1/codigo/ | 
+|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/dEjHc4jMdxp4AqojGCUbRl/WireFrame?node-id=0%3A1 | 
+|Paleta de Cores | Adobe Color | https://color.adobe.com/pt/create/color-wheel | 
+|Editor de Código| Visual Studio Code | https://code.visualstudio.com/ | 
+|Protótipo Interativo | IEEE Explore | https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=computer | 
+|Desenvolvimento dos Slides | Microsoft Office | https://www.microsoft.com/pt-br/microsoft-365/microsoft-office?rtc=1 | 
+|Consulta de Informações | w3schools | https://www.w3schools.com/ | 
+|Consulta de Informações | mdn - mozilla | https://developer.mozilla.org/pt-BR/ | 
+|Comunicação | Discord | https://discord.gg/6HQdRebb23 |
+|User Flow| Miro | https://miro.com/welcomeonboard/b0FCRGQ0SVdsbXhGaHJySG1YVENoRjdjMnRmM1hoeDQ4dTFFTDl4R3VQdlJsR25sY2d5MWZKWkRLZ2NBVFdpR3wzMDc0NDU3MzUxMzkyOTA4MTk1?share_link_id=451808885641 |
+| Arquitetura de Solução | Xmind | https://www.xmind.net/ |
+
+
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
@@ -392,9 +410,7 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
+
 > **Arquitetura de Solução Doação Express:**
 > 
 > 
@@ -403,11 +419,15 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para a avaliação da aplicação foram realizados os testes de software e de usabilidade cabíveis. Esses testes procuraram avaliar a funcionalidade do site e a qualidade da interatividade com o usuário. Os testes, assim como os cenários serão detalhados nas próximas sessões. 
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Os principais requisitos selecionados para a modelagem dos testes foram os seguintes:
+
+- Site amigável aos usuários
+- Site interativo
+- Site dinâmico com campanhas funcionais
+- Execução correta das funções
+- Requisições via API sendo devidamente utilizadas
 
 ## Plano de Testes
 
@@ -423,15 +443,20 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
+## Ferramentas de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+| Testes de Software | NPM | https://www.npmjs.com/ |
+|:-------------------|:----|:-----------------------|
+| Ferramenta de Teste | Mocha | https://mochajs.org/ |
+| Ferramenta de Teste | Chai | https://www.chaijs.com/ |
 
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+As ferramentas de teste utilizadas foram importadas da NPM como dependências para o ambiente de desenvolvimento. Veja as formas de importação utilizadas:
+``` 
+npm install --save-dev mocha
+
+npm install --save-dev chai
+```
+Todos os testes unitários podem ser acessados na pasta `codigo/src/tests` do presente projeto. Vale ressaltar que os desenvolvedores deste projeto procuraram utilizar as ferramentas mais apropriadas para a realização dos testes.
 
 ## Registros de Testes
 
