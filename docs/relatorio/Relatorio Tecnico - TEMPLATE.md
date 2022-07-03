@@ -453,7 +453,6 @@ Para a realização do teste de usabilidade, foram selecionados individuos
 maiores de idade, com poder economico considerável e interessados na 
 prática de doações que já possuiam o costume de realizar auxilios destinados à mesma área,.
 
-
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
 > de usuários que foi escolhido para participar do teste e as
