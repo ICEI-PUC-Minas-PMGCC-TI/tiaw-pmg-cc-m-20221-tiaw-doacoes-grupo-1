@@ -46,5 +46,5 @@ function showCampangs(campaign) {
 
 btnResults.onclick = () => {
     window.location = `src/pages/login.html`;
-
 }
+

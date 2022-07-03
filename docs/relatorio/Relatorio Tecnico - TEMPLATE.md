@@ -395,9 +395,10 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
 > 
-> **Exemplo do diagrama de Arquitetura**:
+> **Arquitetura de Solução Doação Express:**
 > 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> 
+> ![Arquitetura de Solucao Doacao Express](images/Doacoes-Express-Arquitetura.png)
 
 
 # Avaliação da Aplicação
