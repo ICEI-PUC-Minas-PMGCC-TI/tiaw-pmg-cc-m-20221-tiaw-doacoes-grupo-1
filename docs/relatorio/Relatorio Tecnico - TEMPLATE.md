@@ -369,9 +369,14 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Abaixo segue algumas das estrátegias usadas durante o desenvolvimento do site Doações Express. Os métodos usados se basearam no desenvolvimento seguindo a metodologia Scrum
+para tecnologias web.
+
 
 ## Tecnologias Utilizadas
+
+
+
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
