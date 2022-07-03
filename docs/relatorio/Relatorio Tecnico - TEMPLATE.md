@@ -446,13 +446,12 @@ Os principais requisitos selecionados para a modelagem dos testes foram os segui
 5. Uso da página de informações
 
 As funcionalidades avaliadas foram referentes ao login e cadastro e à 
-navegação entre o menu, a página de login e a página principal. Foi avaliado como 
-o usuário navegava pelo site e encontrava e utilizava cada serviço 
-disponível. O usuário deveria fazer login no site, entrar em sua página 
-e escolher campanhas que lhe interessase.
+navegação entre o menu, a página de login e a página principal. Foi avaliado como o usuário navegava pelo site e encontrava e utilizava cada serviço disponível. O usuário deveria fazer login no site, entrar em sua página e escolher campanhas que lhe interessase. O uso do site do Polen também foi avaliado e verificou-se se o usuário soube usar as ferramentas lá disponíveis.
 
 
-Para a realização do teste de usabilidade, foram selecionados individuos maiores de idade, com poder economico considerável e interessados na prática de doações que já possuiam o costume de realizar auxilios destinados à mesma área,.
+Para a realização do teste de usabilidade, foram selecionados individuos 
+maiores de idade, com poder economico considerável e interessados na 
+prática de doações que já possuiam o costume de realizar auxilios destinados à mesma área,.
 
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
