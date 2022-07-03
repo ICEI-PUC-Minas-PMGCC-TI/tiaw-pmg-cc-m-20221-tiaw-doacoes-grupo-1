@@ -369,7 +369,9 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Abaixo segue algumas das estrátegias usadas durante o desenvolvimento do site Doações Express. Os métodos usados se basearam no desenvolvimento seguindo a metodologia Scrum
+para tecnologias web.
+
 
 ## Tecnologias Utilizadas
 
@@ -416,7 +418,6 @@ O GitHub Pages foi escolhido para hospedar a aplicação por conta de sua integr
 > 
 > ![Arquitetura de Solucao Doacao Express](images/Doacoes-Express-Arquitetura.png)
 
-
 # Avaliação da Aplicação
 
 Para a avaliação da aplicação foram realizados os testes de software e de usabilidade cabíveis. Esses testes procuraram avaliar a funcionalidade do site e a qualidade da interatividade com o usuário. Os testes, assim como os cenários serão detalhados nas próximas sessões. 
@@ -431,7 +432,24 @@ Os principais requisitos selecionados para a modelagem dos testes foram os segui
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Testes de software
+
+1. Requisições da API do Polen
+2. Inserção do usuário no banco de dados no Local Storange
+3. Extração de dados do Local Storange
+4. Exibição das campanhas na página de pesquisa
+5. filtragem das campanhas na página de pesquisa
+6. preenchimento do formulário de e-mail
+
+### Testes de usabilidade
+
+1. Login no site
+2. Acesso à página de usuário
+3. Uso da página de usuário
+4. Acesso às campanhas de doação
+5. Uso da página de informações
+
+
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
