@@ -445,6 +445,13 @@ Os principais requisitos selecionados para a modelagem dos testes foram os segui
 4. Acesso às campanhas de doação
 5. Uso da página de informações
 
+As funcionalidades avaliadas foram referentes ao login e cadastro e à 
+navegação entre o menu, a página de login e a página principal. Foi avaliado como o usuário navegava pelo site e encontrava e utilizava cada serviço disponível. O usuário deveria fazer login no site, entrar em sua página e escolher campanhas que lhe interessase. O uso do site do Polen também foi avaliado e verificou-se se o usuário soube usar as ferramentas lá disponíveis.
+
+
+Para a realização do teste de usabilidade, foram selecionados individuos 
+maiores de idade, com poder economico considerável e interessados na 
+prática de doações que já possuiam o costume de realizar auxilios destinados à mesma área,.
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -473,7 +480,9 @@ Todos os testes unitários podem ser acessados na pasta `codigo/src/tests` do pr
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ao serem feitos os testes, constatou-se que os usuáriso encontraram certa 
+dificuldade inicial para se situarem ao entrar na página inicial, mas 
+demonstraram maior entendimento após se passar alguns minutos.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
