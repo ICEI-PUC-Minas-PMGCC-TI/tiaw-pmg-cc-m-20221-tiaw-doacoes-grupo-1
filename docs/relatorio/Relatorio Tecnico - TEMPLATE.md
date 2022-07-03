@@ -426,6 +426,13 @@ para tecnologias web.
 
 ### Testes de usabilidade
 
+||Testes de usabilidade|
+|-|------------------|
+|1|Login no site|
+|2|Acesso à página de usuário|
+|3|Uso da página de usuário|
+|4|Acesso às campanhas de doação|
+|5|Uso da página de informações|
 
 
 
